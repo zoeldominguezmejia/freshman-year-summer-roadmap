@@ -61,7 +61,7 @@ Build the absolute foundational knowledge required to understand cybersecurity c
 ### Week 1 (May 25 – June 1) — ~25 hrs
 | Day | Focus | Est. Time |
 |-----|-------|-----------|
-| Mon May 25 | How Computers Work module | 3 hrs |
+| Mon May 25 | Introduction to Cybersecurity Module | 20 mins |
 | Tue May 26 | Networking Fundamentals (rooms 1–3) | 3 hrs |
 | Wed May 27 | Networking Fundamentals (rooms 4–5) | 3 hrs |
 | Thu May 28 | How the Web Works (all rooms) | 3 hrs |
