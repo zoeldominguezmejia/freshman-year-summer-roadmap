@@ -61,25 +61,25 @@ Build the absolute foundational knowledge required to understand cybersecurity c
 ### Week 1 (May 25 – June 1) — ~25 hrs
 | Day | Focus | Est. Time |
 |-----|-------|-----------|
-| Sun May 25 | How Computers Work module | 3 hrs |
-| Mon May 26 | Networking Fundamentals (rooms 1–3) | 3 hrs |
-| Tue May 27 | Networking Fundamentals (rooms 4–5) | 3 hrs |
-| Wed May 28 | How the Web Works (all rooms) | 3 hrs |
-| Thu May 29 | Linux Fundamentals Part 1–2 | 3 hrs |
-| Fri May 30 | Linux Fundamentals Part 3 | 2 hrs |
-| Sat May 31 | Catch up + notes review | 4 hrs |
-| Sun Jun 1 | Intro Coding + Buffer session | 4 hrs |
+| Mon May 25 | How Computers Work module | 3 hrs |
+| Tue May 26 | Networking Fundamentals (rooms 1–3) | 3 hrs |
+| Wed May 27 | Networking Fundamentals (rooms 4–5) | 3 hrs |
+| Thu May 28 | How the Web Works (all rooms) | 3 hrs |
+| Fri May 29 | Linux Fundamentals Part 1–2 | 3 hrs |
+| Sat May 30 | Linux Fundamentals Part 3 | 2 hrs |
+| Sun May 31 | Catch up + notes review | 4 hrs |
+| Mon Jun 1 | Intro Coding + Buffer session | 4 hrs |
 
 ### Week 2 (June 2 – June 8) — ~25 hrs
 | Day | Focus | Est. Time |
 |-----|-------|-----------|
-| Mon Jun 2 | Windows Fundamentals Part 1 | 3 hrs |
-| Tue Jun 3 | Windows Fundamentals Part 2 | 3 hrs |
-| Wed Jun 4 | Windows Fundamentals Part 3 | 3 hrs |
-| Thu Jun 5 | Cyber Attacks & Defenses Intro | 3 hrs |
-| Fri Jun 6 | Review weak areas + write-ups | 2 hrs |
-| Sat Jun 7 | Full review + SEC0 cert prep | 5 hrs |
-| Sun Jun 8 | Take SEC0 Certification exam 🎓 | 3 hrs |
+| Tue Jun 2 | Windows Fundamentals Part 1 | 3 hrs |
+| Wed Jun 3 | Windows Fundamentals Part 2 | 3 hrs |
+| Thu Jun 4 | Windows Fundamentals Part 3 | 3 hrs |
+| Fri Jun 5 | Cyber Attacks & Defenses Intro | 3 hrs |
+| Sat Jun 6 | Review weak areas + write-ups | 2 hrs |
+| Sun Jun 7 | Full review + SEC0 cert prep | 5 hrs |
+| Mon Jun 8 | Take SEC0 Certification exam 🎓 | 3 hrs |
 
 ---
 
@@ -97,4 +97,4 @@ Build the absolute foundational knowledge required to understand cybersecurity c
 
 ---
 
-[← Back to Main Roadmap](../README.md) | [Phase 2 →](./02-cyber-security-101.md)
+*[← Back to Main Roadmap](../../README.md) | [Phase 2 →](../02-cybersecurity-101/README.md)*
