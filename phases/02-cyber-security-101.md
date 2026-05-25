@@ -110,4 +110,4 @@ phases/02-cybersecurity-101/
 
 ---
 
-*[← Phase 1](../01-pre-security/README.md) | [Back to Roadmap](../../README.md) | [Phase 3 →](../03-soc-level-1/README.md)*
+[← Phase 1](./01-pre-security.md) | [Back to Roadmap](../README.md) | [Phase 3 →](./03-soc-level-1.md)
