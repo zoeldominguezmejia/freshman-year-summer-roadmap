@@ -97,4 +97,4 @@ Build the absolute foundational knowledge required to understand cybersecurity c
 
 ---
 
-*[← Back to Main Roadmap](../../README.md) | [Phase 2 →](../02-cybersecurity-101/README.md)*
+[← Back to Main Roadmap](../README.md) | [Phase 2 →](./02-cyber-security-101.md)
