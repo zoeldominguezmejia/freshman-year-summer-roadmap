@@ -135,4 +135,4 @@ Every investigation should follow this workflow:
 
 ---
 
-*[← Phase 3](../03-soc-level-1/README.md) | [Back to Roadmap](../../README.md) | [Phase 5 →](../05-projects/README.md)*
+[← Phase 3](./03-soc-level-1.md) | [Back to Roadmap](../README.md) | [Phase 5 →](./05-projects.md)
