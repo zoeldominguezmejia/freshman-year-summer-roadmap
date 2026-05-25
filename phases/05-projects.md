@@ -204,15 +204,4 @@ When you need more challenges beyond TryHackMe:
 
 ---
 
-## 🎓 What Comes Next (After August 13)
-
-You'll be ready to:
-- Take the **CompTIA Security+** exam (great for internship applications)
-- Apply for **UNCC cybersecurity clubs** or research assistant positions
-- Start targeting **CyberDefenders.org** and **HackTheBox** advanced forensic challenges
-- Begin studying toward **CompTIA CySA+** or **eJPT**
-- Long-term goal: **GCFE** (GIAC Certified Forensic Examiner)
-
----
-
-*[← Phase 4](../04-digital-forensics-deep-dive/README.md) | [Back to Roadmap](../../README.md)*
+[← Phase 4](./04-digital-forensics-deep-dive.md) | [Back to Roadmap](../README.md)
