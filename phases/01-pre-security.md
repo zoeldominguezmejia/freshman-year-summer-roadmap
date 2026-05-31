@@ -32,9 +32,9 @@ Build the absolute foundational knowledge required to understand cybersecurity c
 ## ✅ Room Checklist
 
 ### Networking Fundamentals
-- [ ] What is Networking?
-- [ ] Intro to LAN
-- [ ] OSI Model
+- [x] What is Networking?
+- [x] Intro to LAN
+- [x] OSI Model
 - [ ] Packets & Frames
 - [ ] Extending Your Network
 
