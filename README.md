@@ -42,3 +42,16 @@ cybersecurity-roadmap/
     ├── 03-soc-level-1/                ← Phase 3 Path
     ├── 04-digital-forensics-deep-dive/← Phase 4 Path
     └── 05-projects/                   ← Phase 5 Portfolios & Forensic Report Schema
+```
+---
+
+## 💡 Sophomore Year Maintenance Rules (Aug 17 – May)
+
+1. **Prioritize the GPA:** Technical skills matter, but HR filters look for a clean academic baseline during sophomore year internship cuts.
+2. **The 1-Hour Weekend Rule:** Dedicate 1–2 hours every weekend to progress through the **IBM Cybersecurity Analyst Certificate** via UNCC Coursera. 
+3. **Get Involved Locally:** Join other cybersecurity clubs, or even make a digital forensics club
+4. **Winter Break Strike:** Use winter break to transition your accumulated knowledge into a **CompTIA Security+** pass.
+
+---
+
+*Last updated: June 2, 2026*
