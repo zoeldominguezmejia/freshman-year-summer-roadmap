@@ -45,6 +45,12 @@ Build the baseline technical and corporate vocabulary needed to thrive across bo
 * **Milestone:** Claim **SEC0 Pre-Security Certificate** from TryHackMe.
 
 ---
+### 🔗 Supplemental Resources
+*   **Networking Visualizer:** [Cisco Packet Tracer (Free)](https://www.netacad.com/courses/packet-tracer) — Perfect for building mock LANs to visualize how packets route before diving into labs.
+*   **Linux Practice Platform:** [OverTheWire: Bandit](https://overthewire.org/wargames/bandit/) — A text-based game that forces you to use the command line to find hidden flags. Great companion to THM Linux Fundamentals.
+*   **Cheat Sheet Tool:** [ExplainShell](https://explainshell.com/) — A visual platform where you paste a Linux command, and it breaks down exactly what every single flag does.
+*   **OS Internals Video:** [How the Windows Kernel Works Under the Hood](https://youtu.be/804bA_p8_P0) — A deep conceptual dive into processes, threads, and memory rings.
+---
 
 ## 🍁 Fall 2026 Academic & Cyber Co-Exist Log
 Use this map during the school year to balance your UNCC courses with your defensive security tracks.
