@@ -1,99 +1,69 @@
-# Phase 1 — Pre-Security Learning Path
-**Weeks 1–2 | May 25 – June 8 | ~50 hours | ~25 hrs/week**
+# Phase 1 — Pre-Security, Academic Foundation Track, & Master Timeline
+**Timeline: June 2 – June 14 | ~45 hours | ~22 hrs/week**
 
 ---
 
 ## 🎯 Goal
-Build the absolute foundational knowledge required to understand cybersecurity concepts — networking, operating systems, the web, and basic security principles.
-
-> TryHackMe's **Pre-Security** path was revamped in early 2026 and now includes computer basics, introductory coding, and real-world attack/defense concepts in addition to the original networking and OS content.
+Build the baseline technical and corporate vocabulary needed to thrive across both practical labs and professional certification structures. This document serves as your live day-by-day execution checkpoint.
 
 ---
 
-## 📚 Learning Path: Pre-Security
-**Link:** https://tryhackme.com/path/outline/presecurity
-
-### Module Breakdown
-
-| Module | Topics Covered | Est. Time |
-|--------|---------------|-----------|
-| **How Computers Work** | Hardware, OS internals, processes, memory | ~6 hrs |
-| **Networking Fundamentals** | IP, MAC, OSI model, TCP/IP, DNS, DHCP | ~10 hrs |
-| **How the Web Works** | HTTP/S, DNS, web servers, cookies, sessions | ~6 hrs |
-| **Linux Fundamentals** (Parts 1–3) | CLI, file system, permissions, bash basics | ~10 hrs |
-| **Windows Fundamentals** (Parts 1–3) | Windows OS, registry, Active Directory basics | ~8 hrs |
-| **Intro Coding** | Basic scripting concepts (Python/Bash) | ~4 hrs |
-| **Cyber Attacks & Defenses Intro** | Real-world attack types, defense overview | ~4 hrs |
-
-**Total Estimated: ~48 hours**
-
----
-
-## ✅ Room Checklist
+## 📊 Live Master Progress Tracker & Room Checklist
 
 ### Networking Fundamentals
-- [x] What is Networking?
-- [x] Intro to LAN
-- [x] OSI Model
-- [x] Packets & Frames
-- [x] Extending Your Network
+- [x] TryHackMe: What is Networking?
+- [x] TryHackMe: Intro to LAN
+- [x] TryHackMe: OSI Model
+- [x] TryHackMe: Packets & Frames
+- [x] TryHackMe: Extending Your Network
 
 ### How The Web Works
-- [x] DNS in Detail
-- [x] HTTP in Detail
-- [ ] How Websites Work
-- [ ] Putting It All Together
+- [x] TryHackMe: DNS in Detail
+- [x] TryHackMe: HTTP in Detail **(Current Status: Pivot Here)**
+- [ ] TryHackMe: How Websites Work
+- [ ] TryHackMe: Putting It All Together
 
-### Linux Fundamentals
-- [ ] Linux Fundamentals Part 1
-- [ ] Linux Fundamentals Part 2
-- [ ] Linux Fundamentals Part 3
+### Operating System Internals
+- [ ] TryHackMe: Linux Fundamentals Parts 1-3
+- [ ] TryHackMe: Windows Fundamentals Parts 1-3
 
-### Windows Fundamentals
-- [ ] Windows Fundamentals Part 1
-- [ ] Windows Fundamentals Part 2
-- [ ] Windows Fundamentals Part 3
+### Enterprise Governance (UNCC Coursera Portal)
+- [ ] Coursera: Google Module 1 (Foundations of Cybersecurity)
+- [ ] Coursera: Google Module 2 (Play It Safe: Manage Security Risks)
 
 ---
 
-## 📝 Week-by-Week Plan
+## 📅 Day-by-Day Execution Plan
 
-### Week 1 (May 25 – June 1) — ~25 hrs
-| Day | Focus | Est. Time |
-|-----|-------|-----------|
-| Mon May 25 | Introduction to Cybersecurity Module | 20 mins | ✅
-| Tue May 26 | Networking Fundamentals (rooms 1–3) | 3 hrs | ✅
-| Wed May 27 | Networking Fundamentals (rooms 4–5) | 3 hrs |
-| Thu May 28 | How the Web Works (all rooms) | 3 hrs |
-| Fri May 29 | Linux Fundamentals Part 1–2 | 3 hrs |
-| Sat May 30 | Linux Fundamentals Part 3 | 2 hrs |
-| Sun May 31 | Catch up + notes review | 4 hrs |
-| Mon Jun 1 | Intro Coding + Buffer session | 4 hrs |
+### Sprint Week 1: Infrastructure & Foundations
+* **Tue June 2 (Today):** Finish your current room: TryHackMe *HTTP in Detail*.
+* **Wed June 3:** Log into UNCC Coursera portal. Start Google Module 1 (Videos 1-10).
+* **Thu June 4:** TryHackMe: *How Websites Work*.
+* **Fri June 5:** Coursera: Complete Google Module 1 and take the final module quiz.
+* **Sat June 6:** TryHackMe: *Putting It All Together* (Web Module graduation).
+* **Sun June 7:** Catch up / Review notes day.
 
-### Week 2 (June 2 – June 8) — ~25 hrs
-| Day | Focus | Est. Time |
-|-----|-------|-----------|
-| Tue Jun 2 | Windows Fundamentals Part 1 | 3 hrs |
-| Wed Jun 3 | Windows Fundamentals Part 2 | 3 hrs |
-| Thu Jun 4 | Windows Fundamentals Part 3 | 3 hrs |
-| Fri Jun 5 | Cyber Attacks & Defenses Intro | 3 hrs |
-| Sat Jun 6 | Review weak areas + write-ups | 2 hrs |
-| Sun Jun 7 | Full review + SEC0 cert prep | 5 hrs |
-| Mon Jun 8 | Take SEC0 Certification exam 🎓 | 3 hrs |
+### Sprint Week 2: OS Internals & Risk Frameworks
+* **Mon June 8:** TryHackMe: *Linux Fundamentals Part 1*.
+* **Tue June 9:** TryHackMe: *Linux Fundamentals Part 2 & 3*.
+* **Wed June 10:** Coursera: Start Google Module 2 (NIST Framework & Security Controls).
+* **Thu June 11:** TryHackMe: *Windows Fundamentals Part 1*.
+* **Fri June 12:** TryHackMe: *Windows Fundamentals Part 2 & 3*.
+* **Sat June 13:** Coursera: Complete Google Module 2 and take the graded assessments.
+* **Sun June 14:** **Milestone:** Claim your **SEC0 Pre-Security Certificate** from TryHackMe!
 
 ---
 
-## 🏆 Milestone
-- [ ] Complete all Pre-Security rooms
-- [ ] Earn **SEC0 Pre-Security Certificate** from TryHackMe
-- [ ] Write a brief summary of what you learned in `progress-tracker/tracker.md`
+## 🍁 Fall 2026 Academic & Cyber Co-Exist Log
+Use this map during the school year to balance your UNCC courses with your defensive security tracks.
 
----
-
-## 📖 Supplemental Resources
-- [Professor Messer's CompTIA Network+ Videos](https://www.professormesser.com/) — free, great for networking
-- [Networking Basics — Cisco NetAcad](https://skillsforall.com/) — free fundamentals course
-- [OverTheWire: Bandit](https://overthewire.org/wargames/bandit/) — Linux CLI practice game
+| Week | Academic Focus (UNCC) | Cyber Maintenance Focus (3-5 hrs/wk) | Status |
+|------|-----------------------|--------------------------------------|--------|
+| **Week 1** | Syllabus Week & Campus Routines | Activate Coursera IBM Track | [ ] Pending |
+| **Week 2** | ITCS 2214: Big-O Notation Basics | IBM Module 1 Videos | [ ] Pending |
+| **Week 3** | MATH 2164: Matrix Multiplications | TryHackMe: Revisit Volatility | [ ] Pending |
+| **Week 4** | CJUS 1511: Rules of Criminal Evidence | Project 2: Windows Artifact Setup | [ ] Pending |
+| **Week 5** | ITCS 2214: Arrays & Linked Lists | IBM Module 2 Quizzes | [ ] Pending |
 
 ---
 
