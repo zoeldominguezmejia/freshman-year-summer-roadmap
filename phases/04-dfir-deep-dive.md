@@ -1,138 +1,43 @@
-# Phase 4 — Digital Forensics Deep Dive
-**Weeks 7–9 | July 7 – July 27 | ~40 hours | ~20 hrs/week**
-
-> This is your specialty phase. You're moving from broad cybersecurity knowledge into deep DFIR expertise. These are hand-picked TryHackMe rooms focused exclusively on digital forensics skills.
+# Phase 4 — Digital Forensics Deep Dive & Professional Closure
+**Timeline: July 27 – August 9 | ~40 hours | ~20 hrs/week**
 
 ---
 
 ## 🎯 Goal
-Develop hands-on proficiency with the core tools and techniques used by professional digital forensic examiners — covering disk forensics, memory forensics, network forensics, mobile forensics, and log analysis.
+Develop deep, specialized proficiency with core digital forensics environments, while completely wrapping up your first resume-building Professional Certificate via UNCC Coursera.
 
 ---
 
-## 🗺️ Forensics Domain Map
-
-```
-Digital Forensics
-├── 💾 Disk Forensics        → Autopsy, FTK Imager, file system analysis
-├── 🧠 Memory Forensics      → Volatility, process analysis, RAM dumps
-├── 🌐 Network Forensics     → Wireshark, PCAP analysis, traffic reconstruction
-├── 📱 Mobile Forensics      → iOS artifacts, Android forensics
-├── 🪟 Windows Forensics     → Registry, event logs, browser artifacts, prefetch
-├── 🐧 Linux Forensics       → Bash history, syslog, /proc, cron artifacts
-└── 📋 Incident Response     → Chain of custody, reporting, legal considerations
-```
+## ✅ Combined Room & Module Checklist
+- [ ] TryHackMe: Forensic Imaging & Autopsy
+- [ ] TryHackMe: Volatility & Memory Forensics labs
+- [ ] TryHackMe: Windows Forensics 1 & 2 (Registry & Shellbags)
+- [ ] TryHackMe: Linux Forensics & Linux Server Forensics
+- [ ] TryHackMe: Digital Forensics Case B4DM755 ⭐
+- [ ] Coursera: Google Module 8 (Prepare for Cybersecurity Jobs)
 
 ---
 
-## ✅ Room Checklist (All on TryHackMe)
+## 📅 Day-by-Day Execution Plan
 
-### 💾 Disk Forensics
-- [ ] [Disk Analysis & Autopsy](https://tryhackme.com/room/autopsy2ze0) — learn Autopsy tool end-to-end
-- [ ] [Forensic Imaging](https://tryhackme.com/room/forensicimaging) — proper evidence acquisition
-- [ ] [Intro to Cold System Forensics](https://tryhackme.com/room/introtocoldsystemforensics)
+### Week 9: Media Imaging, Artifact Carving, & Memory Exploitations
+* **Mon July 27:** TryHackMe: *Forensic Imaging* & *Disk Analysis & Autopsy*.
+* **Tue July 28:** Coursera: Start Google Module 8 (Resume design and tech interview guidelines).
+* **Wed July 29:** TryHackMe: *Intro to Cold System Forensics*.
+* **Thu July 30:** Coursera: Continue Google Module 8 (Workplace engagement profiles).
+* **Fri July 31:** TryHackMe: *Volatility* framework implementation labs.
+* **Sat August 1:** TryHackMe: *Memory Forensics* & *Advanced Endpoint Investigations* ⭐.
+* **Sun August 2:** Complete local VM configurations for Autopsy/Volatility 3.
 
-### 🧠 Memory Forensics
-- [ ] [Volatility](https://tryhackme.com/room/volatility) — master Volatility 2/3 framework
-- [ ] [Memory Forensics](https://tryhackme.com/room/memoryforensics) — apply Volatility to real cases
-- [ ] [Advanced Endpoint Investigations](https://tryhackme.com/room/advancedendpointinvestigations) ⭐
-
-### 🪟 Windows Forensics
-- [ ] [Windows Forensics 1](https://tryhackme.com/room/windowsforensics1) — registry, user artifacts
-- [ ] [Windows Forensics 2](https://tryhackme.com/room/windowsforensics2) — browser history, shellbags
-- [ ] [Windows Applications Forensics](https://tryhackme.com/room/windowsapplicationsforensics)
-
-### 🐧 Linux Forensics
-- [ ] [Linux Forensics](https://tryhackme.com/room/linuxforensics) — logs, history, /proc
-- [ ] [Linux Server Forensics](https://tryhackme.com/room/linuxserverforensics)
-
-### 🌐 Network Forensics
-- [ ] [Wireshark: Traffic Analysis](https://tryhackme.com/room/wiresharktrafficanalysis) — deep PCAP analysis
-- [ ] [h4cked](https://tryhackme.com/room/h4cked) — investigate a real attack through PCAP
-
-### 📱 Mobile / Specialty
-- [ ] [iOS Forensics](https://tryhackme.com/room/iosforensics) — Apple device artifacts
-- [ ] [Forensics (CTF Room)](https://tryhackme.com/room/forensics) — hands-on challenge with Volatility
-
-### 🔎 Incident Response & Process
-- [ ] [DFIR: An Introduction](https://tryhackme.com/room/introductoryroomdfirmodule) ⭐
-- [ ] [IR Playbooks](https://tryhackme.com/room/irplaybooks)
-- [ ] [IR Philosophy and Ethics](https://tryhackme.com/room/irphilosophyandethics)
-- [ ] [Legal Considerations in DFIR](https://tryhackme.com/room/legalconsiderationsdfir)
-- [ ] [Identification & Scoping](https://tryhackme.com/room/identificationandscoping)
-- [ ] [Digital Forensics Case B4DM755](https://tryhackme.com/room/digitalforensicscase) ⭐ *(full case study)*
+### Week 10: Registry Forensics, Linux File Tracing, & Graduation
+* **Mon August 3:** TryHackMe: *Windows Forensics 1 & 2* (Registry & User artifact analysis).
+* **Tue August 4:** TryHackMe: *Windows Applications Forensics*.
+* **Wed August 5:** TryHackMe: *Linux Forensics* & *Linux Server Forensics*.
+* **Thu August 6:** TryHackMe: *Wireshark: Traffic Analysis* and *h4cked* network forensics room.
+* **Fri August 7:** TryHackMe: Run *iOS Forensics* and *Forensics (CTF Room)*.
+* **Sat August 8:** TryHackMe: Execute *Digital Forensics Case B4DM755* ⭐ (Full Case Simulation).
+* **Sun August 9:** **Milestone:** Graduate and claim the **Google Cybersecurity Professional Certificate** badge!
 
 ---
 
-## 📝 Week-by-Week Plan
-
-### Week 7 overlap / Week 8 (July 14 – July 20) — ~20 hrs
-| Focus | Rooms |
-|-------|-------|
-| Disk Forensics | Forensic Imaging → Autopsy → Cold System Forensics |
-| Memory Forensics | Volatility → Memory Forensics |
-| Windows Forensics | Win Forensics 1 → Win Forensics 2 |
-
-### Week 9 (July 21 – July 27) — ~20 hrs
-| Focus | Rooms |
-|-------|-------|
-| Linux Forensics | Linux Forensics → Linux Server Forensics |
-| Network Forensics | Wireshark Traffic Analysis → h4cked |
-| Mobile | iOS Forensics |
-| IR Process | DFIR Intro → IR Playbooks → Legal Considerations → Case B4DM755 |
-
----
-
-## 🧰 Tools to Install Locally
-
-By end of this phase, have these set up on your machine:
-
-```bash
-# On Kali Linux or a VM:
-sudo apt install autopsy volatility3 wireshark sleuthkit foremost
-
-# Or use the TryHackMe AttackBox — no local setup needed
-```
-
-**Recommended VM Setup:**
-- **Kali Linux** (primary analysis machine) — free download
-- **REMnux** (malware analysis) — free, pre-configured
-- Use [VirtualBox](https://www.virtualbox.org/) (free) to run them
-
----
-
-## 📋 Forensics Methodology Reference
-
-Every investigation should follow this workflow:
-
-```
-1. IDENTIFICATION    → What happened? What systems are involved?
-2. PRESERVATION      → Image the disk/memory — don't touch the original
-3. COLLECTION        → Gather artifacts (logs, registry, browser history, etc.)
-4. EXAMINATION       → Use tools to parse and extract relevant data
-5. ANALYSIS          → Connect the dots — build a timeline
-6. REPORTING         → Document findings clearly and completely
-```
-
----
-
-## 🏆 Milestones
-- [ ] Complete all Phase 4 rooms
-- [ ] Successfully analyze a memory dump with Volatility
-- [ ] Recover deleted files from a disk image with Autopsy
-- [ ] Reconstruct an attack timeline from PCAP + log data
-- [ ] Write a full forensic investigation report for Case B4DM755
-- [ ] Begin planning your Phase 5 project
-
----
-
-## 📖 Supplemental Resources
-- [The Sleuth Kit Docs](https://wiki.sleuthkit.org/) — Autopsy's underlying toolkit
-- [Volatility 3 Docs](https://volatility3.readthedocs.io/)
-- [SANS Digital Forensics Blog](https://www.sans.org/blog/) — industry-level write-ups
-- [CyberDefenders.org](https://cyberdefenders.org/) — free blue team CTF challenges
-- [13Cubed YouTube Channel](https://www.youtube.com/@13Cubed) — best free DFIR content on YouTube
-
----
-
-[← Phase 3](./03-soc-level-1.md) | [Back to Roadmap](../README.md) | [Phase 5 →](./05-projects.md)
+*[← Phase 3](../03-soc-level-1/README.md) | [Back to Roadmap](../../README.md) | [Phase 5 →](../05-projects/README.md)*
