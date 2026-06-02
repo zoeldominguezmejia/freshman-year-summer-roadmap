@@ -52,4 +52,4 @@ Contextualizes the labs by teaching asset classification, privacy laws, network 
 
 ---
 
-*[← Phase 1](../01-pre-security/README.md) | [Back to Roadmap](../../README.md) | [Phase 3 →](../03-soc-level-1/README.md)*
+*[← Phase 1](./01-pre-security.md) | [Back to Main Roadmap](../README.md) | [Phase 3 →](./03-soc-level-1.md)*
