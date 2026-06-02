@@ -30,13 +30,16 @@ By balancing technical proficiency (parsing logs, memory analysis) with high-lev
 ---
 
 ## 📁 Repo Structure
+## 📁 Repo Structure
+
+```text
 cybersecurity-roadmap/
-├── README.md                        ← You are here
-├── phases/
-│   ├── 01-pre-security/             ← Contains your Phase 1 Tasks & Master Timeline
-│   ├── 02-cybersecurity-101/
-│   ├── 03-soc-level-1/
-│   ├── 04-digital-forensics-deep-dive/
-│   └── 05-projects/
-└── resources/
-└── tools-and-resources.md
+├── README.md                          ← You are here
+├── resources/
+│   └── tools-and-resources.md         ← Tools, cheat sheets, & references
+└── phases/
+    ├── 01-pre-security/               ← Phase 1 Tasks, Room Checklist, & Master Timeline
+    ├── 02-cybersecurity-101/          ← Phase 2 Path
+    ├── 03-soc-level-1/                ← Phase 3 Path
+    ├── 04-digital-forensics-deep-dive/← Phase 4 Path
+    └── 05-projects/                   ← Phase 5 Portfolios & Forensic Report Schema
