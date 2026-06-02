@@ -35,8 +35,8 @@ Build the absolute foundational knowledge required to understand cybersecurity c
 - [x] What is Networking?
 - [x] Intro to LAN
 - [x] OSI Model
-- [ ] Packets & Frames
-- [ ] Extending Your Network
+- [x] Packets & Frames
+- [x] Extending Your Network
 
 ### How The Web Works
 - [ ] DNS in Detail
