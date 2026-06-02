@@ -4,7 +4,7 @@
 ---
 
 ## 🎯 Goal
-Build the baseline technical and corporate vocabulary needed to thrive across both practical labs and professional certification structures. This document serves as your live day-by-day execution checkpoint.
+Build the baseline technical and corporate vocabulary needed to thrive across both practical labs and professional certification structures. This document serves as your live execution checkpoint.
 
 ---
 
@@ -33,24 +33,16 @@ Build the baseline technical and corporate vocabulary needed to thrive across bo
 
 ---
 
-## 📅 Day-by-Day Execution Plan
+## 📝 Practical Weekly Breakdown
 
-### Sprint Week 1: Infrastructure & Foundations
-* **Tue June 2 (Today):** Finish your current room: TryHackMe *HTTP in Detail*.
-* **Wed June 3:** Log into UNCC Coursera portal. Start Google Module 1 (Videos 1-10).
-* **Thu June 4:** TryHackMe: *How Websites Work*.
-* **Fri June 5:** Coursera: Complete Google Module 1 and take the final module quiz.
-* **Sat June 6:** TryHackMe: *Putting It All Together* (Web Module graduation).
-* **Sun June 7:** Catch up / Review notes day.
+### Sprint Week 1 (June 2 – June 7) — Focus: Infrastructure & Foundations
+* Pick up directly from your current spot in the TryHackMe *HTTP in Detail* room. Complete the rest of the Web and Networking modules.
+* Register for your UNCC Coursera access and complete Google Module 1 (Understand security domains, history of threats).
 
-### Sprint Week 2: OS Internals & Risk Frameworks
-* **Mon June 8:** TryHackMe: *Linux Fundamentals Part 1*.
-* **Tue June 9:** TryHackMe: *Linux Fundamentals Part 2 & 3*.
-* **Wed June 10:** Coursera: Start Google Module 2 (NIST Framework & Security Controls).
-* **Thu June 11:** TryHackMe: *Windows Fundamentals Part 1*.
-* **Fri June 12:** TryHackMe: *Windows Fundamentals Part 2 & 3*.
-* **Sat June 13:** Coursera: Complete Google Module 2 and take the graded assessments.
-* **Sun June 14:** **Milestone:** Claim your **SEC0 Pre-Security Certificate** from TryHackMe!
+### Sprint Week 2 (June 8 – June 14) — Focus: OS Environments & Risk
+* Complete TryHackMe Windows & Linux Fundamentals.
+* Finish Coursera Google Module 2 (NIST Framework, SIEM introductions, Ethics).
+* **Milestone:** Claim **SEC0 Pre-Security Certificate** from TryHackMe.
 
 ---
 
