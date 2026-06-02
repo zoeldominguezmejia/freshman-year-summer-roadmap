@@ -30,7 +30,6 @@ By balancing technical proficiency (parsing logs, memory analysis) with high-lev
 ---
 
 ## 📁 Repo Structure
-## 📁 Repo Structure
 
 ```text
 cybersecurity-roadmap/
