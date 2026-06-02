@@ -59,4 +59,5 @@ Use this map during the school year to balance your UNCC courses with your defen
 
 ---
 
-*[← Back to Main Roadmap](../../README.md) | [Phase 2 →](../02-cybersecurity-101/README.md)*
+
+*[← Back to Main Roadmap](../README.md) | [Phase 2 →](./02-cybersecurity-101.md)*
