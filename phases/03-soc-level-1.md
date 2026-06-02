@@ -51,5 +51,12 @@ Focuses on the theoretical pipelines of log generation, compliance audits, detec
 - **Milestone:** Earn **SAL1 SOC Analyst Level 1 Certificate** from THM.
 
 ---
+### 🔗 Supplemental Resources
+*   **Interactive Log Blueprint:** [Boss of the SOC (BOTS) Datasets](https://github.com/splunk/botsdatasets) — Splunk's official capture-the-flag dataset. It lets you practice tracking realistic enterprise-scale attacks.
+*   **Live Attack Tracking:** [Any.Run Interactive Sandbox](https://any.run/) — A public database where you can watch live malware detonate in real-time and view the generated network/process logs.
+*   **Packet Blueprint Gallery:** [Wireshark Sample Captures Wiki](https://wiki.wireshark.org/SampleCaptures) — A massive repository of raw `.pcap` files containing real traffic from malware infections, scanning tools, and classic network protocols.
+*   **Alert Rule Blueprint:** [Sigma Rules Repository](https://github.com/SigmaHQ/sigma) — An open-source, generic signature format that lets you write a detection rule once and convert it directly into Splunk queries or Elastic rules.
+
+---
 
 *[← Phase 2](./02-cyber-security-101.md) | [Back to Main Roadmap](../README.md) | [Phase 4 →](./04-dfir-deep-dive.md)*
