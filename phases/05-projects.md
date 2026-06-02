@@ -58,5 +58,11 @@ Actionable remediation and defense configurations based on discovered Indicators
 - [ ] Link your Google Cybersecurity Professional Certificate badge directly to your LinkedIn profile.
 
 ---
+### 🔗 Supplemental Resources
+*   **Framework Playbooks:** [NIST SP 800-61 r2: Incident Handling Guide](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-61r2.pdf) — The literal gold-standard manual for structuring incident responses. Use its exact layout to design your lab reports.
+*   **Portfolio Architecture:** [GitHub for Cyber Security Portfolios Guide](https://github.com/cybersecurity-portfolio/template) — A master template showing how to layout your technical documentation to grab the attention of enterprise HR filters.
+*   **Professional Evidence Locker:** [VeraCrypt](https://www.veracrypt.fr/) — Open-source disk encryption software. Excellent for showcasing how you securely isolate malicious files and forensic evidence inside an encrypted folder layout.
+
+---
 
 *[← Phase 4](./04-dfir-deep-dive.md) | [Back to Main Roadmap](../README.md)*
