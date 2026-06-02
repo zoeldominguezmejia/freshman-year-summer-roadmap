@@ -8,46 +8,47 @@ Build a broad, practical foundation across both offensive and defensive cybersec
 
 ---
 
-## ✅ Combined Room & Module Checklist
-- [ ] TryHackMe: Intro to Defensive Security
-- [ ] TryHackMe: Intro to Digital Forensics ⭐
-- [ ] TryHackMe: Nmap & Metasploit Basics
-- [ ] TryHackMe: OWASP Top 10 Web Hacking
-- [ ] TryHackMe: Privilege Escalation (Linux & Windows)
-- [ ] TryHackMe: Wireshark: The Basics
-- [ ] Coursera: Google Module 3 (Networks & Network Security)
-- [ ] Coursera: Google Module 4 (Tools of the Trade: Linux and SQL)
+## 📚 Dual-Platform Alignment
+
+### 1. TryHackMe: Cyber Security 101 Path
+Gives you hands-on experience with exploits, web security flaws, privilege escalation, and basic network mapping tools.
+
+### 2. UNCC Coursera: Google Cybersecurity Certificate (Modules 3 & 4)
+Contextualizes the labs by teaching asset classification, privacy laws, network security models, and system defenses.
 
 ---
 
-## 📅 Day-by-Day Execution Plan
+## ✅ Combined Room & Module Checklist
 
-### Week 3: Networks & Command Line Interfaces
-* **Mon June 15:** TryHackMe: *Intro to Defensive Security* & *Intro to Digital Forensics* ⭐.
-* **Tue June 16:** Coursera: Start Google Module 3 (Network models, ports, and protocols).
-* **Wed June 17:** TryHackMe: *Command Line* & *OSINT* basic rooms.
-* **Thu June 18:** Coursera: Continue Google Module 3 (Firewalls & VPN architecture).
-* **Fri June 19:** TryHackMe: *Networking Deep Dive* modules.
-* **Sat June 20:** Coursera: Graduate Google Module 3 (Pass final network quiz).
-* **Sun June 21:** Technical lab clean-up / Note optimization.
+### Defensive Controls & System Internals
+- [ ] TryHackMe: Intro to Defensive Security
+- [ ] TryHackMe: Intro to Digital Forensics ⭐
+- [ ] Coursera Google Module 3: Connect and Protect: Networks and Network Security
 
-### Week 4: Offensive Mechanics & Web Exploitation
-* **Mon June 22:** TryHackMe: *Nmap* network scanning lab.
-* **Tue June 23:** Coursera: Start Google Module 4 (Linux shell environments).
-* **Wed June 24:** TryHackMe: *Metasploit: Introduction*.
-* **Thu June 25:** Coursera: Continue Google Module 4 (SQL query definitions).
-* **Fri June 26:** TryHackMe: *OWASP Top 10 - 2021* (Web hacking parts 1 & 2).
-* **Sat June 27:** Coursera: Graduate Google Module 4 (SQL & Linux lab completions).
-* **Sun June 28:** Break / Rest day.
+### Offense & Exploit Mechanics
+- [ ] TryHackMe: Nmap & Metasploit Basics
+- [ ] TryHackMe: OWASP Top 10 Web Hacking
+- [ ] TryHackMe: Privilege Escalation (Linux & Windows)
 
-### Week 5: Privilege Escalation & Defenses
-* **Mon June 29:** TryHackMe: *Burp Suite: The Basics* & *SQL Injection*.
-* **Tue June 30:** TryHackMe: *Linux Privilege Escalation* basics.
-* **Wed July 1:** TryHackMe: *Windows Privilege Escalation* basics.
-* **Thu July 2:** TryHackMe: *Blue Team Fundamentals* & *Wireshark: The Basics*.
-* **Fri July 3:** TryHackMe: *Phishing Analysis Fundamentals* & *Phishing Emails 1 & 2*.
-* **Sat July 4:** TryHackMe: Complete remaining Capstone Challenges.
-* **Sun July 5:** **Milestone:** Claim your **SEC1 Cyber Security 101 Certificate** from TryHackMe!
+### Tools & Frameworks
+- [ ] TryHackMe: Wireshark: The Basics
+- [ ] Coursera Google Module 4: Tools of the Trade: Linux and SQL
+
+---
+
+## 📝 Phase 2 Schedule
+
+### Week 3 (June 15 – June 21) — Focus: Networks & CLI
+- TryHackMe: Command Line, OSINT, & Networking deep dive modules.
+- Coursera: Complete Google Module 3 (Network security, firewalls, and ports).
+
+### Week 4 (June 22 – June 28) — Focus: Offense & Exploitation
+- TryHackMe: Exploitation Basics & Web Hacking (OWASP Top 10, Burp Suite).
+- Coursera: Progress through Google Module 4 (Practicing basic Linux commands and SQL queries).
+
+### Week 5 (June 29 – July 5) — Focus: Forensics Prep
+- TryHackMe: Linux/Windows PrivEsc, Blue Team Fundamentals, and **Intro to DFIR** ⭐.
+- **Milestone:** Claim **SEC1 Cyber Security 101 Certificate** from THM.
 
 ---
 
