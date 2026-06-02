@@ -48,4 +48,4 @@ Prepares you for the workforce by validating your skills through a capstone inci
 
 ---
 
-*[← Phase 3](../03-soc-level-1/README.md) | [Back to Roadmap](../../README.md) | [Phase 5 →](../05-projects/README.md)*
+*[← Phase 3](./03-soc-level-1.md) | [Back to Main Roadmap](../README.md) | [Phase 5 →](./05-projects.md)*
