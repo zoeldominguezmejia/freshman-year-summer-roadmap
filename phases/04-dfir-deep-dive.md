@@ -47,5 +47,12 @@ Prepares you for the workforce by validating your skills through a capstone inci
 - **Milestone:** Transition your repository setup to launch your Phase 5 capstone portfolio projects.
 
 ---
+### 🔗 Supplemental Resources
+*   **Memory Analysis Cheat Sheet:** [Volatility 3 Command Reference](https://github.com/volatilityfoundation/volatility3/blob/develop/DOCS/v3-cheatsheet.md) — Keep this open when running command-line RAM analysis to quickly locate plugins like `windows.malfind` or `windows.netscan`.
+*   **Forensic Training Images:** [Digital Corpora Datasets](https://digitalcorpora.org/) — Free, realistic disk images and packet dumps designed specifically for forensic education and tool testing.
+*   **Windows Artifact Map:** [SANS Windows Forensic Analysis Poster](https://www.sans.org/posters/windows-forensic-analysis/) — A visual blueprint showing exactly which Registry keys, Prefetch files, and event logs record user activity.
+*   **Linux IR Guide:** [Sandfly Security Blog](https://sandflysecurity.com/blog/) — Incredible technical blog focused exclusively on hunting for stealthy Linux rootkits and credential theft footprints.
+
+---
 
 *[← Phase 3](./03-soc-level-1.md) | [Back to Main Roadmap](../README.md) | [Phase 5 →](./05-projects.md)*
