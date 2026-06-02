@@ -51,3 +51,12 @@ Granular mapping of the attacker actions to specific tactics and sub-techniques.
 
 ## 6. Containment & Eradication Strategy
 Actionable remediation and defense configurations based on discovered Indicators of Compromise (IOCs).
+```
+## 🏆 End of Summer Checkpoint (August 16 Deadline)
+- [ ] Push clean repository folders containing evidence artifacts, reports, and code scripts.
+- [ ] Pin your top Forensic Report to your GitHub profile front-page.
+- [ ] Link your Google Cybersecurity Professional Certificate badge directly to your LinkedIn profile.
+
+---
+
+*[← Phase 4](../04-digital-forensics-deep-dive/README.md) | [Back to Main Roadmap](../../README.md)*
