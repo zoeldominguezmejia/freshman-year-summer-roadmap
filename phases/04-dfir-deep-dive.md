@@ -8,35 +8,43 @@ Develop deep, specialized proficiency with core digital forensics environments, 
 
 ---
 
-## ✅ Combined Room & Module Checklist
-- [ ] TryHackMe: Forensic Imaging & Autopsy
-- [ ] TryHackMe: Volatility & Memory Forensics labs
-- [ ] TryHackMe: Windows Forensics 1 & 2 (Registry & Shellbags)
-- [ ] TryHackMe: Linux Forensics & Linux Server Forensics
-- [ ] TryHackMe: Digital Forensics Case B4DM755 ⭐
-- [ ] Coursera: Google Module 8 (Prepare for Cybersecurity Jobs)
+## 📚 Dual-Platform Alignment
+
+### 1. TryHackMe: Custom Forensics Selection
+Deep dives into raw disk extraction, live RAM imaging analysis via Volatility, and tracing malicious registry modifications.
+
+### 2. UNCC Coursera: Google Certificate Completion & Graduation
+Prepares you for the workforce by validating your skills through a capstone incident response project and career interview preparation.
 
 ---
 
-## 📅 Day-by-Day Execution Plan
+## ✅ Combined Room & Module Checklist
 
-### Week 9: Media Imaging, Artifact Carving, & Memory Exploitations
-* **Mon July 27:** TryHackMe: *Forensic Imaging* & *Disk Analysis & Autopsy*.
-* **Tue July 28:** Coursera: Start Google Module 8 (Resume design and tech interview guidelines).
-* **Wed July 29:** TryHackMe: *Intro to Cold System Forensics*.
-* **Thu July 30:** Coursera: Continue Google Module 8 (Workplace engagement profiles).
-* **Fri July 31:** TryHackMe: *Volatility* framework implementation labs.
-* **Sat August 1:** TryHackMe: *Memory Forensics* & *Advanced Endpoint Investigations* ⭐.
-* **Sun August 2:** Complete local VM configurations for Autopsy/Volatility 3.
+### 💾 Advanced Disk & Memory Forensics
+- [ ] TryHackMe: Forensic Imaging & Autopsy
+- [ ] TryHackMe: Volatility & Memory Forensics labs
+- [ ] TryHackMe: Windows Forensics 1 & 2 (Registry & Shellbags)
 
-### Week 10: Registry Forensics, Linux File Tracing, & Graduation
-* **Mon August 3:** TryHackMe: *Windows Forensics 1 & 2* (Registry & User artifact analysis).
-* **Tue August 4:** TryHackMe: *Windows Applications Forensics*.
-* **Wed August 5:** TryHackMe: *Linux Forensics* & *Linux Server Forensics*.
-* **Thu August 6:** TryHackMe: *Wireshark: Traffic Analysis* and *h4cked* network forensics room.
-* **Fri August 7:** TryHackMe: Run *iOS Forensics* and *Forensics (CTF Room)*.
-* **Sat August 8:** TryHackMe: Execute *Digital Forensics Case B4DM755* ⭐ (Full Case Simulation).
-* **Sun August 9:** **Milestone:** Graduate and claim the **Google Cybersecurity Professional Certificate** badge!
+### 🐧 Network, Linux, & Case Management
+- [ ] TryHackMe: Linux Forensics & Linux Server Forensics
+- [ ] TryHackMe: Digital Forensics Case B4DM755 ⭐ *(Full Case Study)*
+
+### 🎓 Professional Certification Graduation
+- [ ] Coursera Google Module 8: Put It to Work: Prepare for Cybersecurity Jobs
+- [ ] **Milestone:** Graduate and claim the **Google Cybersecurity Professional Certificate** badge.
+
+---
+
+## 📝 Phase 4 Schedule
+
+### Week 9 (July 27 – August 2) — Focus: Hard Core Media Analysis
+- TryHackMe: Autopsy, Volatility 3, and Windows Forensics 1 & 2 rooms.
+- Coursera: Begin Google Module 8 (Resume crafting, building incident portfolios, and interview prep).
+
+### Week 10 (August 3 – August 9) — Focus: Case Resolution
+- TryHackMe: Linux Forensics, Network Traffic analysis, and Case B4DM755.
+- Coursera: Complete Module 8, finish final assessments, and claim your verified digital badge.
+- **Milestone:** Transition your repository setup to launch your Phase 5 capstone portfolio projects.
 
 ---
 
