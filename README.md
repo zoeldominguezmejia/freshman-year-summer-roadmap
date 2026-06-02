@@ -1,4 +1,4 @@
-# 🔐 Cybersecurity Roadmap — UNCC Sophomore Year & Summer Track
+# 🔐 Cybersecurity Roadmap — UNCC Summer After Freshman Year -> End Of Sophomore Year
 ### Goal: Digital Forensics & Incident Response (DFIR) Specialist
 **Start Date:** June 2, 2026 | **Target Date:** May 2027 (End of Sophomore Year)
 
