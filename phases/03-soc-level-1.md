@@ -52,4 +52,4 @@ Focuses on the theoretical pipelines of log generation, compliance audits, detec
 
 ---
 
-*[← Phase 2](../02-cybersecurity-101/README.md) | [Back to Roadmap](../../README.md) | [Phase 4 →](../04-digital-forensics-deep-dive/README.md)*
+*[← Phase 2](./02-cyber-security-101.md) | [Back to Main Roadmap](../README.md) | [Phase 4 →](./04-dfir-deep-dive.md)*
