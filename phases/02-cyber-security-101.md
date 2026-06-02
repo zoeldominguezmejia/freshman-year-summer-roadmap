@@ -51,5 +51,12 @@ Contextualizes the labs by teaching asset classification, privacy laws, network 
 - **Milestone:** Claim **SEC1 Cyber Security 101 Certificate** from THM.
 
 ---
+### 🔗 Supplemental Resources
+*   **Web Exploitation Sandbox:** [PortSwigger Web Security Academy](https://portswigger.net/web-security) — Entirely free, world-class labs created by the makers of Burp Suite. This is the ultimate playground for mastering the OWASP Top 10.
+*   **Interactive Tool Trainer:** [Nmap Scripting Engine (NSE) Reference](https://nmap.org/book/nse.html) — A directory of pre-written scripts used to automate vulnerability checks during network scans.
+*   **Exploit Database:** [GTFOBins](https://gtfobins.github.io/) — A curated list of Unix binaries that can be abused to bypass local security restrictions during privilege escalation.
+*   **Windows PrivEsc Cheat Sheet:** [PayloadsAllTheThings: Windows Privilege Escalation](https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Methodology%20and%20Resources/Windows%20-%20Privilege%20Escalation.md) — A breakdown of commands used to hunt for weak file permissions and unquoted service paths.
+
+---
 
 *[← Phase 1](./01-pre-security.md) | [Back to Main Roadmap](../README.md) | [Phase 3 →](./03-soc-level-1.md)*
