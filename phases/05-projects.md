@@ -2,66 +2,152 @@
 **Timeline: August 10 – August 16 | ~40 hours | ~20 hrs/week**
 
 ---
+🎯 Goal
 
-## 🎯 Goal
-Synthesize your technical TryHackMe abilities and the professional documentation principles taught in your UNCC Coursera courses into production-grade portfolio pieces. These documents will form the foundation of your interview talking points during your upcoming sophomore year hiring cycles.
-
----
-
-## 📁 Summer Capstone Deliverables
-
-| Project | Focus Area | TryHackMe Lab Context | Coursera Context |
-|---|---|---|---|
-| **1. Ransomware Investigation** | Disk + Memory + Network | Volatility & Autopsy Rooms | Incident Response Frameworks |
-| **2. Insider Threat Registry Hunt** | Registry & USB Artifacts | Windows Forensics 1 & 2 | Asset Protection & Privacy|
+Apply everything you've learned to real-world inspired DFIR projects. These projects solve realistic problems you would encounter as a forensic analyst. Each one becomes a portfolio piece for internships, jobs, and your GitHub profile.
 
 ---
 
-## 🔬 Project Strategy for Sophomores
+## 📁 Project Overview
 
-To ensure these projects survive a rigorous technical resume screening, you must execute them following the industry-standard **NIST SP 800-61 r2** playbook formats introduced during your Coursera certificate modules.
-
-### Formatting Requirements:
-* **The Code:** Save all forensic artifact parsing commands (Volatility plugins used, RegRipper script strings) into clean `.sh` or `.ps1` files inside your repository folders.
-* **The Report:** Avoid informal write-ups. Use the **Litigation-Ready Forensic Format** defined below for both Project 1 and Project 2.
+| #   | Project | Focus Area | Difficulty | Est. Time |
+| --- | --- | --- | --- | --- |
+| 1   | **Ransomware Attack Investigation** | Disk + Memory + Network | ⭐⭐⭐ | ~12 hrs |
+| 2   | **Insider Threat Investigation** | Disk forensics + OSINT | ⭐⭐  | ~8 hrs |
 
 ---
 
-## 📋 Professional Forensic Report Schema
+## 🔬 Project 1: Ransomware Attack Investigation
 
-Every project repository folder must house a markdown document structured exactly as follows:
+**Folder:** `./project-01-ransomware/`
+
+### Scenario
+
+A Windows workstation at a small accounting firm was found encrypted. The IT admin preserved a disk image and a memory dump before rebuilding the system. You are the forensic analyst called in to determine what happened.
+
+### Objectives
+
+- [ ] Analyze the memory dump with Volatility — identify malicious processes
+- [ ] Examine the disk image with Autopsy — find dropped malware artifacts
+- [ ] Reconstruct the attack timeline (infection → persistence → encryption)
+- [ ] Identify the ransomware family and likely infection vector
+- [ ] Write a full forensic investigation report
+
+### Resources to Use
+
+- **Sample Memory Dumps:** [MemLabs](https://github.com/stuxnet999/MemLabs) — free CTF memory challenges
+- **Practice Disk Images:** [Digital Corpora](https://digitalcorpora.org/) — free forensic datasets
+- TryHackMe room: [Advent of Cyber Day 6 (any year)](https://tryhackme.com/room/adventofcyber2023) — ransomware investigation day
+
+### Deliverables
+
+```
+project-01-ransomware/
+├── README.md           ← Project description and methodology
+├── findings.md         ← Your full forensic report
+├── timeline.md         ← Attack timeline reconstruction
+├── iocs.md             ← Indicators of Compromise found
+└── screenshots/        ← Evidence screenshots
+```
+
+---
+
+## 🔬 Project 2: Insider Threat Investigation
+
+**Folder:** `./project-02-insider-threat/`
+
+### Scenario
+
+An employee at a tech company was terminated. Before leaving, they allegedly exfiltrated sensitive IP via USB and personal email. HR has preserved their workstation disk image. You must find evidence.
+
+### Objectives
+
+- [ ] Identify connected USB devices (Windows registry: USBSTOR)
+- [ ] Recover file access history (LNK files, Recent Items, Shellbags)
+- [ ] Analyze browser history for webmail exfiltration
+- [ ] Check for cloud sync tools (Dropbox, Google Drive) activity
+- [ ] Build a timeline of suspicious activity
+- [ ] Write a litigation-ready incident report
+
+### Resources to Use
+
+- TryHackMe rooms: Windows Forensics 1 & 2 (revisit)
+- **Practice dataset:** [NIST CFReDS](https://cfreds.nist.gov/) — official forensic reference datasets
+- Tool: **Regripper** for registry parsing
+
+### Deliverables
+
+```
+project-02-insider-threat/
+├── README.md
+├── findings.md         ← What evidence was found
+├── timeline.md
+├── usb_analysis.md     ← USB device registry findings
+└── screenshots/
+```
+
+---
+
+## 📋 How to Write a Forensic Report
+
+Every project report should include these sections:
 
 ```markdown
-# Forensic Investigation Report (NIST Compliance)
+# Forensic Investigation Report
 
 ## 1. Executive Summary
-Brief non-technical overview summarizing the scope, impact of the incident, and key absolute confirmations.
+(2-3 sentences — what happened, what was found)
 
-## 2. Chain of Custody & Evidence Hashes
-Verification hashes (SHA-256) of the disk images, network PCAPs, or memory dumps utilized to ensure integrity.
+## 2. Scope & Methodology
+(What systems, what tools, what timeframe)
 
-## 3. Tooling & Environment Inventory
-Explicit listing of forensic software used (e.g., Volatility 3 v2.4.1, Autopsy GUI v4.21.0).
+## 3. Findings
+(Detailed, factual, chronological)
 
-## 4. Analytical Findings & Timeline Reconstructions
-Chronological breakdown connecting specific system events, compromised registry values, and active processes back to malicious activities.
+## 4. Evidence
+(SHA-256 hashes, file paths, screenshots)
 
-## 5. MITRE ATT&CK Technique Mappings
-Granular mapping of the attacker actions to specific tactics and sub-techniques.
+## 5. Timeline of Events
+(Timestamped chronology)
 
-## 6. Containment & Eradication Strategy
-Actionable remediation and defense configurations based on discovered Indicators of Compromise (IOCs).
+## 6. Indicators of Compromise (IOCs)
+(IPs, hashes, file names, registry keys)
+
+## 7. MITRE ATT&CK Mapping
+(Tactic → Technique → Sub-technique)
+
+## 8. Conclusions & Recommendations
+(What happened, what to fix)
+
+## 9. Analyst Certification
+(Your name, date, statement of objectivity)
 ```
-## 🏆 End of Summer Checkpoint (August 16 Deadline)
-- [ ] Push clean repository folders containing evidence artifacts, reports, and code scripts.
-- [ ] Pin your top Forensic Report to your GitHub profile front-page.
-- [ ] Link your Google Cybersecurity Professional Certificate badge directly to your LinkedIn profile.
 
 ---
-### 🔗 Supplemental Resources
-*   **Framework Playbooks:** [NIST SP 800-61 r2: Incident Handling Guide](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-61r2.pdf) — The literal gold-standard manual for structuring incident responses. Use its exact layout to design your lab reports.
-*   **Portfolio Architecture:** [GitHub for Cyber Security Portfolios Guide](https://github.com/cybersecurity-portfolio/template) — A master template showing how to layout your technical documentation to grab the attention of enterprise HR filters.
-*   **Professional Evidence Locker:** [VeraCrypt](https://www.veracrypt.fr/) — Open-source disk encryption software. Excellent for showcasing how you securely isolate malicious files and forensic evidence inside an encrypted folder layout.
+
+## 🌐 Additional Practice Platforms
+
+When you need more challenges beyond TryHackMe:
+
+| Platform | Free? | Best For |
+| --- | --- | --- |
+| [CyberDefenders](https://cyberdefenders.org/) | ✅ Free | Blue team + DFIR CTFs |
+| [BlueTeamLabs Online](https://blueteamlabs.online/) | ✅ Free tier | SOC + forensics |
+| [MemLabs](https://github.com/stuxnet999/MemLabs) | ✅ Free | Memory forensics CTF |
+| [NIST CFReDS](https://cfreds.nist.gov/) | ✅ Free | Real forensic datasets |
+| [Digital Corpora](https://digitalcorpora.org/) | ✅ Free | Disk images for practice |
+| [HackTheBox (Forensics)](https://app.hackthebox.com/challenges) | ✅ Free tier | Hard DFIR challenges |
+
+---
+
+## 🏆 Final Milestones (Aug 13 Deadline)
+
+- [ ] Complete Project 1 (Ransomware) — full report written
+- [ ] Complete Project 2 (Insider Threat) — full report written
+- [ ] Start or complete Projects 3 and/or 4
+- [ ] Push all projects to your GitHub with clean README files
+- [ ] LinkedIn: update your profile to include DFIR skills + link GitHub
+- [ ] Write a reflection post in `progress-tracker/tracker.md`
 
 ---
 
