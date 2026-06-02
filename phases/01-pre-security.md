@@ -39,8 +39,8 @@ Build the absolute foundational knowledge required to understand cybersecurity c
 - [x] Extending Your Network
 
 ### How The Web Works
-- [ ] DNS in Detail
-- [ ] HTTP in Detail
+- [x] DNS in Detail
+- [x] HTTP in Detail
 - [ ] How Websites Work
 - [ ] Putting It All Together
 
