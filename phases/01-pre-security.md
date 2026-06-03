@@ -10,62 +10,65 @@ Build the baseline technical and legal vocabulary needed across both practical l
 
 ## 📊 Live Master Progress Tracker & Room Checklist
 
+## 📊 Live Master Progress Tracker & Room Checklist
+
+> **Key:** ⭐ = go slow, take full notes | ➡️ = normal pace | ⚡ = go fast, just complete it
+
 ### Module 1: Introduction to Cyber Security
-- [x] Offensive Security Intro
-- [x] Defensive Security Intro
-- [x] Careers in Cyber
-- [x] Topic Transition Recap
+- [x] ➡️ Offensive Security Intro
+- [x] ➡️ Defensive Security Intro
+- [ ] ➡️ Careers in Cyber
+- [ ] ⚡ Topic Transition Recap
 
 ### Module 2: Network Fundamentals
-- [x] What is Networking?
-- [x] Intro to LAN
-- [x] OSI Model
-- [x] Packets & Frames
-- [x] Extending Your Network
-- [x] Topic Transition Recap
+- [x] ➡️ What is Networking?
+- [x] ➡️ Intro to LAN
+- [x] ⭐ OSI Model *(understanding where data lives at each layer matters when you are analyzing PCAP files and network artifacts later)*
+- [x] ⭐ Packets & Frames *(packets are what Wireshark shows you — understand what you are actually looking at before you get there)*
+- [x] ➡️ Extending Your Network
+- [ ] ⚡ Topic Transition Recap
 
 ### Module 3: How The Web Works
-- [x] DNS in Detail
-- [x] HTTP in Detail ← **(Current Status: Resume Here)**
-- [x] How Websites Work
-- [x] Putting it all together
-- [x] Topic Transition Recap
+- [x] ➡️ DNS in Detail
+- [x] ⭐ HTTP in Detail *(HTTP requests and responses appear constantly in browser history artifacts and web server logs — understand the structure cold)*
+- [ ] ➡️ How Websites Work
+- [ ] ➡️ Putting it all together
+- [ ] ⚡ Topic Transition Recap
 
 ### Module 4: Computer Fundamentals
-- [ ] Inside a Computer System
-- [ ] Computer Types
-- [ ] Client-Server Basics
-- [ ] Virtualisation Basics
-- [ ] Cloud Computing Fundamentals
-- [ ] Topic Rewind Recap
+- [ ] ⭐ Inside a Computer System *(storage types, memory hierarchy, and how data persists — directly relevant to understanding why deleted files are recoverable)*
+- [ ] ➡️ Computer Types
+- [ ] ➡️ Client-Server Basics
+- [ ] ⭐ Virtualisation Basics *(most forensic lab work happens in VMs — get comfortable with the concept and understand how VM disk artifacts differ from physical machines)*
+- [ ] ➡️ Cloud Computing Fundamentals
+- [ ] ⚡ Topic Rewind Recap
 
 ### Module 5: Operating Systems Basics
-- [ ] Operating Systems: Introduction
-- [ ] Windows Basics
-- [ ] Linux CLI Basics
-- [ ] Windows CLI Basics
-- [ ] Operating System Security
-- [ ] Topic Rewind Recap
+- [ ] ⭐ Operating Systems: Introduction *(how the OS manages processes, memory, and storage is the foundation for understanding what artifacts get created and why)*
+- [ ] ⭐ Windows Basics *(the Windows OS generates the majority of artifacts you will examine in your career — pay attention to every detail covered here)*
+- [ ] ➡️ Linux CLI Basics
+- [ ] ⭐ Windows CLI Basics *(command line activity leaves artifacts in Prefetch, event logs, and PowerShell history — understand what each command does)*
+- [ ] ⭐ Operating System Security *(every security event the OS logs is a potential artifact — pay attention to what gets recorded and where)*
+- [ ] ⚡ Topic Rewind Recap
 
 ### Module 6: Software Basics
-- [ ] Data Representation
-- [ ] Data Encoding
-- [ ] Python: Simple Demo
-- [ ] JavaScript: Simple Demo
-- [ ] Database SQL Basics
-- [ ] Topic Rewind Recap
+- [ ] ⭐ Data Representation *(hex, binary, and ASCII are what you read when you open a file in a hex editor — you will do this regularly in disk forensics and file carving)*
+- [ ] ⭐ Data Encoding *(Base64 and other encodings appear constantly in malware, phishing payloads, and browser artifacts — you will decode these with CyberChef)*
+- [ ] ➡️ Python: Simple Demo
+- [ ] ⚡ JavaScript: Simple Demo *(just complete it)*
+- [ ] ⭐ Database SQL Basics *(browser history, communication apps, and many OS features store data in SQLite databases — SQL knowledge lets you query them directly)*
+- [ ] ⚡ Topic Rewind Recap
 
 ### Module 7: Attacks and Defenses
-- [ ] The CIA Triad
-- [ ] Cryptography Concepts
-- [ ] Become a Hacker
-- [ ] Become a Defender
-- [ ] Topic Rewind Recap
+- [ ] ⭐ The CIA Triad *(every forensic case ultimately comes back to a breach of confidentiality, integrity, or availability — frame every investigation around this)*
+- [ ] ⭐ Cryptography Concepts *(hash verification is how you prove evidence integrity in court — MD5 and SHA-256 are not just security concepts, they are your chain of custody mechanism)*
+- [ ] ➡️ Become a Hacker
+- [ ] ➡️ Become a Defender
+- [ ] ⚡ Topic Rewind Recap
 
 ### Enterprise Governance (UNCC Coursera Portal)
-- [ ] Coursera: Google Module 1 — Foundations of Cybersecurity
-- [ ] Coursera: Google Module 2 — Play It Safe: Manage Security Risks
-
+- [ ] ➡️ Coursera: Google Module 1 — Foundations of Cybersecurity
+- [ ] ➡️ Coursera: Google Module 2 — Play It Safe: Manage Security Risks
 ---
 
 ## 📝 Practical Weekly Breakdown
