@@ -1,5 +1,5 @@
 # Phase 1 — Pre-Security, Academic Foundation Track, & Master Timeline
-**Timeline: June 2 – June 14 | ~45 hours | ~22 hrs/week**
+**Timeline: June 3 – June 15 | ~45 hours | ~22 hrs/week**
 
 ---
 
@@ -22,7 +22,7 @@ Build the baseline technical and legal vocabulary needed across both practical l
 - [x] OSI Model
 - [x] Packets & Frames
 - [x] Extending Your Network
-- [ ] Topic Transition Recap
+- [x] Topic Transition Recap
 
 ### Module 3: How The Web Works
 - [x] DNS in Detail
@@ -70,15 +70,13 @@ Build the baseline technical and legal vocabulary needed across both practical l
 
 ## 📝 Practical Weekly Breakdown
 
-### Sprint Week 1 (June 2 – June 7) — Infrastructure & Foundations
-- Resume from HTTP in Detail. Finish all of Module 3 (How the Web Works).
-- Complete Module 4 (Computer Fundamentals) — file systems and virtualisation are directly relevant to forensic imaging.
-- Begin Module 5 (Operating Systems Basics) — Windows and Linux CLI rooms.
+### Sprint Week 1 (June 3 – June 8) — Infrastructure & Foundations
+- Complete Module 4 (Computer Fundamentals) today — virtualisation and file systems are directly relevant to forensic imaging.
+- Complete Module 5 (Operating Systems Basics) — Windows and Linux CLI rooms.
 - Register for UNCC Coursera and complete Google Module 1.
-- **Examiner habit to build this week:** Every time a room asks you to run a command, write down what it does and what evidence it would leave behind on a real system. Start thinking like someone who will later be *analyzing* these artifacts, not just running them.
 
-### Sprint Week 2 (June 8 – June 14) — OS, Software, Attacks & Defenses
-- Finish Module 5 (OS Basics including Operating System Security).
+### Sprint Week 2 (June 9 – June 15) — OS, Software, Attacks & Defenses
+- Finish anything remaining from Module 5 (OS Basics including Operating System Security).
 - Complete Module 6 (Software Basics — data representation, encoding, Python/JS demos, SQL basics).
 - Complete Module 7 (Attacks and Defenses — CIA Triad, cryptography concepts, hacker/defender mindset).
 - Finish Coursera Google Module 2 (NIST Framework, SIEM introductions, Ethics).
