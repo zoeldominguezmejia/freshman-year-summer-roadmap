@@ -1,6 +1,6 @@
-# 🔍 Digital Forensics Examiner Roadmap — UNCC Summer After Freshman Year → End of Sophomore Year
+# 🔍 Digital Forensics Examiner Roadmap — UNCC Summer After Freshman Year
 ### Goal: Digital Forensics Examiner (Law Enforcement / Private Sector / Corporate Investigations)
-**Start Date:** June 2, 2026 | **Target Date:** May 2027 (End of Sophomore Year)
+**Start Date:** June 2, 2026 | **Target Date:** August 18 (Fall Semester Begins)
 **Last Updated:** June 3, 2026
 
 ---
@@ -21,12 +21,11 @@ Digital forensics examiners operate in law enforcement agencies, private forensi
 
 | Phase | Content | Timeline | Est. Hours | Weekly Pace |
 |-------|---------|----------|------------|-------------|
-| **Phase 1** | Pre-Security Path + Google Modules 1–2 | June 2 – June 14 | ~45 hrs | ~22 hrs/week |
-| **Phase 2** | Cyber Security 101 (forensics-weighted) + Google Modules 3–4 | June 15 – July 9 | ~55 hrs | ~17 hrs/week |
-| **Phase 3** | SOC Level 1 (evidence-chain focus) + Google Modules 5–7 | July 10 – July 28 | ~50 hrs | ~17 hrs/week |
-| **Phase 4** | DFIR Deep Dive + Examiner Methodology + Google Module 8 | July 29 – Aug 11 | ~40 hrs | ~20 hrs/week |
-| **Phase 5** | Forensic Examiner Portfolio Projects 1 & 2 | Aug 12–16 + early semester | ~20 hrs first sprint | ~20 hrs/week |
-| **Phase 6** | Sophomore Year: Security+, CySA+, CJ Minor Foundation, Projects 3 & 4, Internship Push | Aug 17 – May 2027 | ~5–7 hrs/week | Semester pace |
+| **Phase 1** | Pre-Security Path (7 modules) + Google Modules 1–2 | June 3 – June 15 | ~45 hrs | ~22 hrs/week |
+| **Phase 2** | Cyber Security 101 (14 sections) + Google Modules 3–4 | June 16 – July 10 | ~55 hrs | ~17 hrs/week |
+| **Phase 3** | SOC Level 1 (14 sections) + Google Modules 5–7 | July 11 – July 29 | ~50 hrs | ~17 hrs/week |
+| **Phase 4** | DFIR Deep Dive + Google Module 8 | July 30 – Aug 12 | ~40 hrs | ~20 hrs/week |
+| **Phase 5** | DFIR Portfolio Projects 1 & 2 | Aug 13 – Aug 17 + early semester | ~20 hrs first sprint | ~20 hrs/week |
 
 **Total summer hours: ~210 hours across 11 weeks**
 
@@ -134,20 +133,6 @@ Most people entering digital forensics come from pure CS or cybersecurity progra
 - **Agency context** — Understanding how law enforcement forensic labs operate vs. private firms
 
 This combination of technical training and legal context is exactly what law enforcement agencies, prosecutors' offices, and corporate legal departments hire for. Lead with it.
-
----
-
-## 💡 Sophomore Year Core Rules
-
-1. **GPA first, always.** Law enforcement agencies and federal positions (FBI, Secret Service, HSI) have minimum GPA requirements. A 3.0 is the floor. A 3.5+ makes you competitive.
-2. **5–7 hours per week, not more.** DSA and Linear Algebra are demanding. Protect your academic performance.
-3. **One CyberDefenders forensics challenge per week.** Keeps your hands sharp. Write up every single one — your GitHub is your portfolio.
-4. **Security+ by December.** Book the exam before you feel ready. A scheduled date creates accountability.
-5. **Winter break is a sprint.** Use it to sit Security+ if not done and work through the first two IBM cert courses.
-6. **Start talking to your CJ professors now.** They often have law enforcement contacts. One warm introduction from a professor beats fifty cold applications to agency portals.
-7. **Apply broadly and early.** Summer 2027 internship and externship applications open September–November 2026. Do not wait until spring.
-8. **Find the pre-law or CJ student organizations.** You are uniquely positioned to bridge both communities.
-9. **Document everything with chain of custody discipline, even in practice.** Build the habit now. It becomes instinct by the time it matters.
 
 ---
 
