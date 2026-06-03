@@ -19,94 +19,95 @@ Asset classification, network security models, Linux fundamentals for security, 
 
 ## ✅ Full Room Checklist
 
+## ✅ Full Room Checklist
+
+> **Key:** ⭐ = go slow, take full notes | ➡️ = normal pace | ⚡ = go fast, just complete it
+
 ### Section 1: Start Your Cyber Security Journey
-- [ ] Offensive Security Intro *(overlap from Phase 1 — quick review)*
-- [ ] Defensive Security Intro *(overlap from Phase 1 — quick review)*
-- [ ] Search Skills
+- [ ] ⚡ Offensive Security Intro *(overlap from Phase 1 — just complete it)*
+- [ ] ➡️ Defensive Security Intro *(overlap from Phase 1 — quick but read carefully)*
+- [ ] ➡️ Search Skills
 
 ### Section 2: Linux Fundamentals
-- [ ] Linux Fundamentals Part 1
-- [ ] Linux Fundamentals Part 2
-- [ ] Linux Fundamentals Part 3
+- [ ] ➡️ Linux Fundamentals Part 1
+- [ ] ➡️ Linux Fundamentals Part 2
+- [ ] ➡️ Linux Fundamentals Part 3
+> Linux matters for forensics — you will examine Linux file systems and parse Linux logs.
+> Normal pace is fine; you don't need to master scripting yet, just get comfortable in the CLI.
 
 ### Section 3: Windows and AD Fundamentals
-- [ ] Windows Fundamentals 1
-- [ ] Windows Fundamentals 2
-- [ ] Windows Fundamentals 3
-- [ ] Active Directory Basics ⭐ *(critical — AD environments generate the artifacts you will examine in enterprise cases)*
+- [ ] ⭐ Windows Fundamentals 1 *(registry, file system, user accounts — all artifact sources)*
+- [ ] ⭐ Windows Fundamentals 2 *(system tools and configuration — understand what each one logs)*
+- [ ] ⭐ Windows Fundamentals 3 *(security features — understand what generates what evidence)*
+- [ ] ⭐ Active Directory Basics *(enterprise cases almost always involve AD — take notes on users, groups, GPO, domain controllers)*
 
 ### Section 4: Command Line
-- [ ] Windows Command Line
-- [ ] Windows PowerShell
-- [ ] Linux Shells
+- [ ] ⭐ Windows Command Line *(you will run these commands during triage and examination)*
+- [ ] ⭐ Windows PowerShell *(PowerShell is both an attacker tool and an artifact source — know both sides)*
+- [ ] ➡️ Linux Shells
 
 ### Section 5: Networking
-- [ ] Networking Concepts
-- [ ] Networking Essentials
-- [ ] Networking Core Protocols
-- [ ] Networking Secure Protocols
-- [ ] Wireshark: The Basics
-- [ ] Tcpdump: The Basics
-- [ ] Nmap: The Basics
+- [ ] ➡️ Networking Concepts
+- [ ] ➡️ Networking Essentials
+- [ ] ➡️ Networking Core Protocols
+- [ ] ➡️ Networking Secure Protocols
+- [ ] ⭐ Wireshark: The Basics *(PCAP analysis is a core examiner skill — go slow)*
+- [ ] ➡️ Tcpdump: The Basics
+- [ ] ⚡ Nmap: The Basics *(attacker tool — just understand what it does and what logs it generates)*
 
 ### Section 6: Cryptography
-- [ ] Cryptography Basics
-- [ ] Public Key Cryptography Basics
-- [ ] Hashing Basics ⭐ *(hash verification is the backbone of evidence integrity — do not rush this)*
-- [ ] John the Ripper: The Basics
+- [ ] ➡️ Cryptography Basics
+- [ ] ➡️ Public Key Cryptography Basics
+- [ ] ⭐ Hashing Basics *(MD5 and SHA-256 are how you prove evidence integrity in court — internalize this)*
+- [ ] ⚡ John the Ripper: The Basics *(password cracking tool — just complete it, minimal forensics relevance)*
 
 ### Section 7: Exploitation Basics
-- [ ] Moniker Link (CVE-2024-21413)
-- [ ] Metasploit: Introduction
-- [ ] Metasploit: Exploitation
-- [ ] Metasploit: Meterpreter
-- [ ] Blue
+- [ ] ⚡ Moniker Link (CVE-2024-21413) *(just complete it)*
+- [ ] ⚡ Metasploit: Introduction *(just complete it)*
+- [ ] ⚡ Metasploit: Exploitation *(just complete it)*
+- [ ] ⚡ Metasploit: Meterpreter *(just complete it)*
+- [ ] ➡️ Blue *(this one is worth a normal pass — it's a Windows exploitation room and the artifacts it generates are things you'll later hunt as an examiner)*
 
 ### Section 8: Web Hacking
-- [ ] Web Application Basics
-- [ ] JavaScript Essentials
-- [ ] SQL Fundamentals
-- [ ] Burp Suite: The Basics
+- [ ] ➡️ Web Application Basics
+- [ ] ⚡ JavaScript Essentials *(just complete it)*
+- [ ] ➡️ SQL Fundamentals *(databases appear in forensic cases — browser history, communication apps, and many applications store data in SQLite)*
+- [ ] ⚡ Burp Suite: The Basics *(pentester tool — just complete it)*
 
 ### Section 9: Offensive Security Tooling
-- [ ] Hydra
-- [ ] Gobuster: The Basics
-- [ ] Shells Overview
-- [ ] SQLMap: The Basics
+- [ ] ⚡ Hydra *(just complete it)*
+- [ ] ⚡ Gobuster: The Basics *(just complete it)*
+- [ ] ⚡ Shells Overview *(skim it — understanding shell types helps you recognize execution artifacts)*
+- [ ] ⚡ SQLMap: The Basics *(just complete it)*
 
 ### Section 10: Defensive Security
-- [ ] Defensive Security Intro *(quick pass)*
-- [ ] SOC Fundamentals
-- [ ] Digital Forensics Fundamentals ⭐ *(your specialty — go slow and take full notes)*
-- [ ] Incident Response Fundamentals ⭐ *(learn the IR lifecycle cold — it is the framework examiners operate inside)*
-- [ ] Logs Fundamentals ⭐ *(logs are evidence — understand what each log type records and where it lives)*
+- [ ] ⚡ Defensive Security Intro *(you've seen this — just complete it)*
+- [ ] ➡️ SOC Fundamentals
+- [ ] ⭐ Digital Forensics Fundamentals *(your specialty — go slow, take full notes on every artifact type introduced)*
+- [ ] ⭐ Incident Response Fundamentals *(learn the IR lifecycle cold — examiners operate inside this framework)*
+- [ ] ⭐ Logs Fundamentals *(logs are evidence — know what each log type records, where it lives, and how long it persists)*
 
 ### Section 11: Security Solutions
-- [ ] Introduction to SIEM
-- [ ] Firewall Fundamentals
-- [ ] IDS Fundamentals
-- [ ] Vulnerability Scanner Overview
+- [ ] ➡️ Introduction to SIEM
+- [ ] ➡️ Firewall Fundamentals
+- [ ] ➡️ IDS Fundamentals
+- [ ] ⚡ Vulnerability Scanner Overview *(just complete it)*
 
 ### Section 12: Defensive Security Tooling
-- [ ] CyberChef: The Basics ⭐ *(you will use CyberChef constantly — decoding, encoding, IOC extraction)*
-- [ ] CAPA: The Basics ⭐ *(identifies malware capabilities from binaries without executing them — critical for safe malware triage)*
-- [ ] REMnux: Getting Started ⭐ *(your malware analysis VM — set it up properly)*
-- [ ] FlareVM: Arsenal of Tools
+- [ ] ⭐ CyberChef: The Basics *(you will use CyberChef constantly — decoding strings, extracting IOCs, identifying file magic bytes)*
+- [ ] ⭐ CAPA: The Basics *(identifies malware capabilities from binaries without executing them — directly relevant to safe malware triage in casework)*
+- [ ] ⭐ REMnux: Getting Started *(set this VM up properly and get comfortable in it — you will use it in projects)*
+- [ ] ➡️ FlareVM: Arsenal of Tools *(worth a normal pass — know what tools are available and what each does)*
 
 ### Section 13: Build Your Cyber Security Career
-- [ ] Security Principles
-- [ ] Careers in Cyber
-- [ ] Training Impact on Teams
+- [ ] ➡️ Security Principles
+- [ ] ➡️ Careers in Cyber
+- [ ] ⚡ Training Impact on Teams *(just complete it)*
 
 ### Section 14: OWASP Top 10 (2025)
-- [ ] OWASP Top 10 2025: IAAA Failures
-- [ ] OWASP Top 10 2025: Application Design Flaws
-- [ ] OWASP Top 10 2025: Insecure Data Handling
-
-### UNCC Coursera — Google Cybersecurity Certificate
-- [ ] Module 3: Connect and Protect: Networks and Network Security
-- [ ] Module 4: Tools of the Trade: Linux and SQL
-
+- [ ] ⚡ OWASP Top 10 2025: IAAA Failures *(just complete it)*
+- [ ] ⚡ OWASP Top 10 2025: Application Design Flaws *(just complete it)*
+- [ ] ⚡ OWASP Top 10 2025: Insecure Data Handling *(just complete it — SQL injection and improper data handling do show up in forensic cases involving web logs)*
 ---
 
 ## 📝 Phase 2 Schedule
