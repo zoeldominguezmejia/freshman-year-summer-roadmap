@@ -1,6 +1,5 @@
 # Phase 3 — SOC Level 1 & Evidence Triage Track
-**Timeline: July 10 – July 28 | ~50 hours | ~17 hrs/week**
-
+**Timeline: July 11 – July 29 | ~50 hours | ~17 hrs/week**
 ---
 
 ## 🎯 Goal
@@ -124,21 +123,21 @@ Assets and threat management, detection and response pipelines, and Python autom
 
 ## 📝 Phase 3 Schedule
 
-### Week 7 (July 10 – July 16) — SOC Fundamentals, Frameworks, Phishing
+### Week 7 (July 11 – July 17) — SOC Fundamentals, Frameworks, Phishing
 - TryHackMe: Sections 1–2 (Blue Team Intro, SOC Team Internals)
 - TryHackMe: Section 3 (Core SOC Solutions — Splunk, Elastic, EDR, SOAR)
 - TryHackMe: Section 4 (Cyber Defence Frameworks — Pyramid of Pain, Kill Chain, MITRE)
 - TryHackMe: Section 5 (Phishing Analysis — all 7 rooms)
 - Coursera: Begin Google Module 5
 
-### Week 8 (July 17 – July 23) — Traffic Analysis, Windows/Linux Monitoring, Malware
+### Week 8 (July 18 – July 24) — Traffic Analysis, Windows/Linux Monitoring, Malware
 - TryHackMe: Section 6 (Network Traffic Analysis — Wireshark deep pass, NetworkMiner)
 - TryHackMe: Section 7 (Network Security Monitoring — Snort, Data Exfiltration Detection)
 - TryHackMe: Sections 8–10 (Web, Windows, and Linux Security Monitoring)
 - TryHackMe: Section 11 (Malware Concepts — classification, LOLBins, intro analysis)
 - Coursera: Complete Google Module 5, begin Module 6
 
-### Week 9 partial (July 24 – July 28) — Threat Intel, SIEM Triage, Capstones
+### Week 9 partial (July 25 – July 29) — Threat Intel, SIEM Triage, Capstones
 - TryHackMe: Section 12 (Threat Analysis Tools)
 - TryHackMe: Section 13 (SIEM Triage — Splunk and Elastic)
 - TryHackMe: Section 14 (Capstone Challenges — Tempest, Boogeyman 1–3)
