@@ -20,8 +20,8 @@ Build the baseline technical and corporate vocabulary needed to thrive across bo
 ### How The Web Works
 - [x] TryHackMe: DNS in Detail
 - [x] TryHackMe: HTTP in Detail
-- [ ] TryHackMe: How Websites Work **(Currently Here)**
-- [ ] TryHackMe: Putting It All Together
+- [x] TryHackMe: How Websites Work
+- [x] TryHackMe: Putting It All Together **(Currently Here)**
 
 ### Operating System Internals
 - [ ] TryHackMe: Linux Fundamentals Parts 1-3
