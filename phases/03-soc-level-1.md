@@ -1,17 +1,17 @@
-# Phase 3 — SOC Level 1 & Enterprise SIEM Integration
+# Phase 3 — SOC Level 1 & Evidence Triage Track
 **Timeline: July 10 – July 28 | ~50 hours | ~17 hrs/week**
 
 ---
 
 ## 🎯 Goal
-Learn to operate as a Security Operations Center Level 1 analyst. This phase ties hands-on log hunting, SIEM triage, phishing analysis, and network monitoring with the enterprise detection frameworks in the Google Cybersecurity Certificate.
+Learn to operate as a Security Operations Center Level 1 analyst — and more importantly for your path, understand how SOC workflows, log analysis, and alert triage feed evidence into a forensic investigation. Digital forensics examiners often receive cases that were first flagged by a SOC team. Understanding both sides of that handoff makes you a significantly stronger examiner.
 
 ---
 
 ## 📚 Dual-Platform Alignment
 
 ### 1. TryHackMe: SOC Level 1 Path
-14 sections covering the full SOC analyst workflow — from alert triage to malware classification to capstone investigations.
+14 sections covering the full SOC workflow — alert triage, phishing analysis, network monitoring, malware classification, and capstone investigations.
 
 ### 2. UNCC Coursera: Google Cybersecurity Certificate (Modules 5–7)
 Assets and threat management, detection and response pipelines, and Python automation for security tasks.
@@ -41,10 +41,10 @@ Assets and threat management, detection and response pipelines, and Python autom
 - [ ] Introduction to SOAR
 
 ### Section 4: Cyber Defence Frameworks
-- [ ] Pyramid Of Pain ⭐ *(memorize this — it comes up in interviews)*
-- [ ] Cyber Kill Chain ⭐
+- [ ] Pyramid Of Pain ⭐
+- [ ] Cyber Kill Chain ⭐ *(the attacker's timeline that you will later reconstruct from artifacts)*
 - [ ] Unified Kill Chain
-- [ ] MITRE ⭐ *(most important framework in defensive security)*
+- [ ] MITRE ⭐ *(most important framework in the field — map every technique you see to ATT&CK)*
 - [ ] Summit
 - [ ] Eviction
 
@@ -59,17 +59,17 @@ Assets and threat management, detection and response pipelines, and Python autom
 
 ### Section 6: Network Traffic Analysis
 - [ ] Network Traffic Basics
-- [ ] Wireshark: The Basics *(quick pass — covered in Phase 2)*
+- [ ] Wireshark: The Basics *(quick pass)*
 - [ ] Wireshark: Packet Operations ⭐
 - [ ] Wireshark: Traffic Analysis ⭐
-- [ ] NetworkMiner
+- [ ] NetworkMiner ⭐ *(excellent for extracting files, credentials, and artifacts from PCAP files)*
 
 ### Section 7: Network Security Monitoring
 - [ ] Network Security Essentials
 - [ ] Network Discovery Detection
-- [ ] Data Exfiltration Detection ⭐ *(directly relevant to insider threat forensics)*
+- [ ] Data Exfiltration Detection ⭐ *(exfiltration cases are a core examiner scenario — study this closely)*
 - [ ] Man-in-the-Middle Detection
-- [ ] IDS Fundamentals *(quick pass — covered in Phase 2)*
+- [ ] IDS Fundamentals *(quick pass)*
 - [ ] Snort
 
 ### Section 8: Web Security Monitoring
@@ -93,7 +93,7 @@ Assets and threat management, detection and response pipelines, and Python autom
 ### Section 11: Malware Concepts for SOC
 - [ ] Malware Classification ⭐
 - [ ] Intro to Malware Analysis ⭐
-- [ ] Living Off the Land Attacks ⭐ *(LOLBins — every DFIR interview asks about this)*
+- [ ] Living Off the Land Attacks ⭐ *(LOLBins appear in almost every modern incident you will examine)*
 - [ ] Shadow Trace
 
 ### Section 12: Threat Analysis Tools
@@ -124,50 +124,50 @@ Assets and threat management, detection and response pipelines, and Python autom
 
 ## 📝 Phase 3 Schedule
 
-### Week 7 (July 10 – July 16) — Focus: SOC Fundamentals, Frameworks, and Phishing
+### Week 7 (July 10 – July 16) — SOC Fundamentals, Frameworks, Phishing
 - TryHackMe: Sections 1–2 (Blue Team Intro, SOC Team Internals)
 - TryHackMe: Section 3 (Core SOC Solutions — Splunk, Elastic, EDR, SOAR)
 - TryHackMe: Section 4 (Cyber Defence Frameworks — Pyramid of Pain, Kill Chain, MITRE)
 - TryHackMe: Section 5 (Phishing Analysis — all 7 rooms)
-- Coursera: Begin Google Module 5 (Assets, Threats, and Vulnerabilities)
+- Coursera: Begin Google Module 5
 
-### Week 8 (July 17 – July 23) — Focus: Traffic Analysis, Windows/Linux Monitoring, Malware
+### Week 8 (July 17 – July 23) — Traffic Analysis, Windows/Linux Monitoring, Malware
 - TryHackMe: Section 6 (Network Traffic Analysis — Wireshark deep pass, NetworkMiner)
 - TryHackMe: Section 7 (Network Security Monitoring — Snort, Data Exfiltration Detection)
 - TryHackMe: Sections 8–10 (Web, Windows, and Linux Security Monitoring)
 - TryHackMe: Section 11 (Malware Concepts — classification, LOLBins, intro analysis)
 - Coursera: Complete Google Module 5, begin Module 6
 
-### Week 9 partial (July 24 – July 28) — Focus: Threat Intel, SIEM Triage, Capstones
+### Week 9 partial (July 24 – July 28) — Threat Intel, SIEM Triage, Capstones
 - TryHackMe: Section 12 (Threat Analysis Tools)
-- TryHackMe: Section 13 (SIEM Triage — Splunk and Elastic alert triage labs)
+- TryHackMe: Section 13 (SIEM Triage — Splunk and Elastic)
 - TryHackMe: Section 14 (Capstone Challenges — Tempest, Boogeyman 1–3)
-- Coursera: Complete Module 6, begin Module 7 (Python automation)
+- Coursera: Complete Module 6, begin Module 7
 - **Milestone:** Earn **SAL1 SOC Analyst Level 1 Certificate** from TryHackMe
 
 ---
 
-## ⭐ Priority Rooms to Slow Down On
+## ⭐ Priority Rooms for a Forensic Examiner
 
-**MITRE** — Map every attack you see to a tactic and technique throughout this entire phase. Use attack.mitre.org constantly. Interviewers will ask you to do this on the spot.
+**Windows Threat Detection 1–3** — Windows Event IDs and Sysmon logs are some of the most valuable artifacts in any forensic investigation. The same skills you develop here for SOC alerting apply directly to forensic timeline reconstruction. Know Event IDs 4624, 4625, 4648, 4688, 4697, 4720, 7045 cold.
 
-**Pyramid of Pain** — Understand why blocking IOCs at different levels has different impact on an attacker. This framework comes up in both interviews and real SOC work constantly.
+**NetworkMiner** — Where Wireshark shows you packets, NetworkMiner extracts artifacts: files transferred, credentials transmitted, host details. This is the network forensics workflow, not just traffic monitoring.
 
-**Windows Threat Detection 1–3** — This is the bridge between SOC work and DFIR. Windows event IDs, Sysmon logs, and artifact correlation are the same skills used in forensic investigations.
+**Data Exfiltration Detection** — Exfiltration is one of the most common forensic case types in corporate environments. Study the detection patterns and then flip the question: if you were the examiner on the receiving end of this case, what artifacts would prove it happened?
 
-**Living Off the Land Attacks** — LOLBins (legitimate system binaries used maliciously) are one of the most common attack techniques in modern incidents. Know certutil, mshta, regsvr32, wmic, and powershell usage patterns cold.
+**Boogeyman 1–3** — Treat these as forensic investigations, not CTF challenges. For at least one of them, write a full investigation report using the forensic report schema from Phase 5. By doing this now, your Phase 5 projects will be dramatically cleaner.
 
-**Boogeyman 1–3** — Treat these as real investigations, not CTF challenges. Write a full IR report for at least one of them using the forensic report schema from Phase 5.
+**MITRE ATT&CK** — Map every technique you encounter throughout this phase to a tactic and technique on attack.mitre.org. By the end of Phase 3 you should be doing this automatically. It will be the first thing interviewers ask you to do.
 
 ---
 
 ## 🔗 Supplemental Resources
 
-- **Boss of the SOC (BOTS) Datasets:** [GitHub](https://github.com/splunk/botsdatasets) — Splunk's official CTF dataset. Practice tracking enterprise-scale attacks with real log data.
-- **Any.Run Interactive Sandbox:** [app.any.run](https://app.any.run/) — Watch live malware execute in real-time and view the generated network and process logs.
-- **Wireshark Sample Captures:** [Wireshark Wiki](https://wiki.wireshark.org/SampleCaptures) — Repository of real pcap files from malware infections, scans, and protocols.
-- **Sigma Rules:** [GitHub](https://github.com/SigmaHQ/sigma) — Write a detection rule once, convert it to Splunk or Elastic queries. Great for understanding how detection logic works.
-- **MITRE ATT&CK Navigator:** [mitre-attack.github.io](https://mitre-attack.github.io/attack-navigator/) — Interactive heatmap. Use this to track every technique you encounter across this phase.
+- **MITRE ATT&CK Navigator:** [mitre-attack.github.io/attack-navigator](https://mitre-attack.github.io/attack-navigator/) — Interactive heatmap. Track every technique you see.
+- **Boss of the SOC (BOTS) Datasets:** [GitHub](https://github.com/splunk/botsdatasets) — Splunk CTF dataset; practice at enterprise scale.
+- **Any.run Interactive Sandbox:** [app.any.run](https://app.any.run/) — Watch malware execute live and capture process and network artifacts.
+- **Wireshark Sample Captures:** [Wireshark Wiki](https://wiki.wireshark.org/SampleCaptures) — Real pcap files from infections, scans, and protocols.
+- **Windows Event Log Encyclopedia:** [ultimatewindowssecurity.com](https://www.ultimatewindowssecurity.com/securitylog/encyclopedia/) — Definitive reference for every Windows Event ID.
 
 ---
 
