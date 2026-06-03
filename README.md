@@ -35,18 +35,18 @@ Digital forensics examiners operate in law enforcement agencies, private forensi
 
 | Week | Dates | Phase | Primary Focus |
 |------|-------|-------|---------------|
-| Week 1 | June 2–8 | Phase 1 | Web basics, Networking, OS intro, Google Module 1 |
-| Week 2 | June 9–14 | Phase 1 | OS Basics, Software, Attacks & Defenses, Google Module 2 → **SEC0 cert** |
-| Week 3 | June 15–21 | Phase 2 | Linux, Windows + AD, Command Line |
-| Week 4 | June 22–28 | Phase 2 | Networking tools, Cryptography, Exploitation basics |
-| Week 5 | June 29–July 5 | Phase 2 | Web Hacking, Forensics Fundamentals deep pass |
-| Week 6 | July 6–9 | Phase 2 | Defensive sections, SIEM intro, Evidence law intro → **SEC1 cert** |
-| Week 7 | July 10–16 | Phase 3 | SOC Fundamentals, Frameworks, Phishing Analysis |
-| Week 8 | July 17–23 | Phase 3 | Network/Windows/Linux Monitoring, Malware Concepts |
-| Week 9 | July 24–28 | Phase 3 | Threat Intel, SIEM Triage, Boogeyman capstones → **SAL1 cert** |
-| Week 10 | July 29–Aug 4 | Phase 4 | DFIR Intro, Windows Forensics, Linux Forensics, Autopsy, FTK Imager |
-| Week 11 | Aug 5–11 | Phase 4 | Volatility, KAPE, Magnet AXIOM trial, Capstone rooms → **Google cert** |
-| Final sprint | Aug 12–16 | Phase 5 | Projects 1 & 2 (continue into first weeks of semester) |
+| Week 1 | June 3–8 | Phase 1 | Computer Fundamentals (today), OS Basics, Google Module 1 |
+| Week 2 | June 9–15 | Phase 1 | Software Basics, Attacks & Defenses, Google Module 2 → **SEC0 cert** |
+| Week 3 | June 16–22 | Phase 2 | Linux, Windows + AD, Command Line |
+| Week 4 | June 23–29 | Phase 2 | Networking tools, Cryptography, Exploitation basics |
+| Week 5 | June 30–July 6 | Phase 2 | Web Hacking, Forensics Fundamentals deep pass |
+| Week 6 | July 7–10 | Phase 2 | Defensive sections, SIEM intro → **SEC1 cert** |
+| Week 7 | July 11–17 | Phase 3 | SOC Fundamentals, Frameworks, Phishing Analysis |
+| Week 8 | July 18–24 | Phase 3 | Network/Windows/Linux Monitoring, Malware Concepts |
+| Week 9 | July 25–29 | Phase 3 | Threat Intel, SIEM Triage, Boogeyman capstones → **SAL1 cert** |
+| Week 10 | July 30–Aug 5 | Phase 4 | DFIR Intro, Windows Forensics, Linux Forensics, Autopsy |
+| Week 11 | Aug 6–12 | Phase 4 | Volatility, KAPE, Redline, Capstone rooms → **Google cert** |
+| Final sprint | Aug 13–17 | Phase 5 | Projects 1 & 2 (continue into first weeks of semester) |
 
 ---
 
