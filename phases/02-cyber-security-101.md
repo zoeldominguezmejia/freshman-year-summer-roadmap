@@ -1,6 +1,5 @@
 # Phase 2 — Cyber Security 101 & Forensic Foundations Track
-**Timeline: June 15 – July 9 | ~55 hours | ~17 hrs/week**
-
+**Timeline: June 16 – July 10 | ~55 hours | ~17 hrs/week**
 ---
 
 ## 🎯 Goal
@@ -112,23 +111,23 @@ Asset classification, network security models, Linux fundamentals for security, 
 
 ## 📝 Phase 2 Schedule
 
-### Week 3 (June 15 – June 21) — OS, CLI, and Networking
+### Week 3 (June 16 – June 22) — OS, CLI, and Networking
 - TryHackMe: Sections 1–4 (Linux Fundamentals, Windows + AD Basics, Command Line)
 - TryHackMe: Begin Section 5 (Networking Concepts through Networking Secure Protocols)
 - Coursera: Begin Google Module 3
 
-### Week 4 (June 22 – June 28) — Networking Tools, Crypto, and Exploitation
+### Week 4 (June 23 – June 29) — Networking Tools, Crypto, and Exploitation
 - TryHackMe: Finish Section 5 (Wireshark, Tcpdump, Nmap)
 - TryHackMe: Section 6 (Cryptography — spend extra time on Hashing Basics)
 - TryHackMe: Section 7 (Exploitation — Metasploit suite and Blue)
 - Coursera: Complete Google Module 3, begin Module 4
 
-### Week 5 (June 29 – July 5) — Web Hacking and Forensics Fundamentals Deep Pass
+### Week 5 (June 30 – July 6) — Web Hacking and Forensics Fundamentals Deep Pass
 - TryHackMe: Sections 8–9 (Web Hacking, Offensive Tooling)
-- TryHackMe: Section 10 — go slowly through Digital Forensics Fundamentals, IR Fundamentals, and Logs Fundamentals. These three rooms are the first structured exposure to your actual career workflow.
+- TryHackMe: Section 10 — go slowly through Digital Forensics Fundamentals, IR Fundamentals, and Logs Fundamentals
 - Coursera: Complete Google Module 4
 
-### Week 6 partial (July 6 – July 9) — Defensive Tooling and OWASP
+### Week 6 partial (July 7 – July 10) — Defensive Tooling and OWASP
 - TryHackMe: Sections 11–14
 - Spend significant time on CyberChef, CAPA, and REMnux
 - **Milestone:** Claim **SEC1 Cyber Security 101 Certificate** from TryHackMe
