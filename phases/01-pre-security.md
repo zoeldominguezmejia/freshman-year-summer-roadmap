@@ -10,8 +10,6 @@ Build the baseline technical and legal vocabulary needed across both practical l
 
 ## 📊 Live Master Progress Tracker & Room Checklist
 
-## 📊 Live Master Progress Tracker & Room Checklist
-
 > **Key:** ⭐ = go slow, take full notes | ➡️ = normal pace | ⚡ = go fast, just complete it
 
 ### Module 1: Introduction to Cyber Security
