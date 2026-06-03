@@ -1,27 +1,27 @@
-# Phase 4 — Digital Forensics Deep Dive & Google Certificate Graduation
+# Phase 4 — Digital Forensics Examiner Deep Dive & Google Certificate Graduation
 **Timeline: July 29 – August 11 | ~40 hours | ~20 hrs/week**
 
 ---
 
 ## 🎯 Goal
-Develop deep, specialized proficiency with the core tools and techniques used by professional digital forensic examiners. This is the official TryHackMe DFIR module — every room feeds directly into your Phase 5 portfolio projects. Complete the Google Cybersecurity Certificate during this phase.
+Develop the core technical skills of a working digital forensics examiner. Every room in this phase maps directly to a tool category you will use professionally. The standard you are holding yourself to is not "complete the lab" — it is "could I defend these findings in a written report?" Complete the Google Cybersecurity Certificate during this phase.
 
 ---
 
 ## 📚 Dual-Platform Alignment
 
 ### 1. TryHackMe: Digital Forensics and Incident Response Module
-The official THM DFIR track. Covers Windows and Linux forensic artifacts, memory analysis with Volatility, disk forensics with Autopsy, triage with KAPE, endpoint monitoring with Velociraptor, case management with TheHive, and malware analysis fundamentals.
+The official THM DFIR track. Covers Windows and Linux forensic artifacts, memory analysis, disk forensics, rapid triage, endpoint monitoring, case management, and malware analysis fundamentals.
 
 ### 2. UNCC Coursera: Google Cybersecurity Certificate — Final Module
-Complete Module 8 (career preparation, portfolio building, interview prep) and claim your verified professional certificate badge.
+Complete Module 8 (career preparation, portfolio building, interview prep) and claim your verified professional certificate.
 
 ---
 
 ## ✅ Full Room Checklist
 
 ### Forensic Foundations & Windows Artifacts
-- [ ] DFIR: An Introduction ⭐ *(start here — sets the methodology framework for everything else)*
+- [ ] DFIR: An Introduction ⭐ *(methodology framework for every examination you will ever conduct)*
 - [ ] Windows Forensics 1 ⭐ — Windows Registry forensics
 - [ ] Windows Forensics 2 ⭐ — Windows file systems and file system artifacts
 
@@ -29,105 +29,141 @@ Complete Module 8 (career preparation, portfolio building, interview prep) and c
 - [ ] Linux Forensics ⭐ — Forensic artifacts in the Linux file system
 
 ### Disk Forensics
-- [ ] Autopsy ⭐ — Full disk forensics investigation with Autopsy (employee data leak case)
+- [ ] Autopsy ⭐ — Full disk forensics with Autopsy (employee data leak case)
 
 ### Endpoint & Memory Triage
-- [ ] Redline — Memory analysis and IOC scanning on an endpoint
-- [ ] KAPE ⭐ — Kroll Artifact Parser and Extractor for rapid artifact collection
-- [ ] Volatility ⭐ — Memory forensics framework (core skill — spend extra time here)
-- [ ] Velociraptor — Advanced endpoint monitoring and digital forensic response platform
+- [ ] Redline — Endpoint memory analysis and IOC scanning (Mandiant)
+- [ ] KAPE ⭐ — Rapid artifact collection without full disk imaging
+- [ ] Volatility ⭐ — Memory forensics framework (the hardest skill in DFIR — spend the most time here)
+- [ ] Velociraptor — Advanced endpoint monitoring and forensic response platform
 
 ### Case Management
-- [ ] TheHive Project — Security Incident Response Platform for documenting investigation findings
+- [ ] TheHive Project — Security Incident Response Platform for documenting findings
 
 ### Malware Analysis
-- [ ] Intro to Malware Analysis ⭐ — What to do when you encounter suspected malware
+- [ ] Intro to Malware Analysis ⭐ — Safe triage workflow for suspected malware
 
 ### Capstone Investigations
-- [ ] Unattended ⭐ — Apply Windows forensics knowledge to investigate a real incident
-- [ ] Disgruntled ⭐ — Apply Linux forensics knowledge to investigate a real incident
+- [ ] Unattended ⭐ — Windows forensics investigation: apply everything from Windows Forensics 1 & 2
+- [ ] Disgruntled ⭐ — Linux forensics investigation: apply Linux forensics knowledge
 - [ ] Critical — Memory dump analysis in a practical scenario
-- [ ] Secret Recipe ⭐ — Registry forensics investigation case
+- [ ] Secret Recipe ⭐ — Registry forensics case
 
 ### UNCC Coursera — Google Cybersecurity Certificate
-- [ ] Module 7: Automate Cybersecurity Tasks with Python *(finish if not done in Phase 3)*
+- [ ] Module 7: Automate Cybersecurity Tasks with Python *(complete if not finished in Phase 3)*
 - [ ] Module 8: Put It to Work — Prepare for Cybersecurity Jobs
-- [ ] **MILESTONE: Claim Google Cybersecurity Professional Certificate badge**
+- [ ] **MILESTONE: Claim Google Cybersecurity Professional Certificate**
 
 ---
 
 ## 📝 Phase 4 Schedule
 
-### Week 10 (July 29 – August 4) — Focus: Foundations, Windows, Linux, Disk
+### Week 10 (July 29 – August 4) — Foundations, Windows, Linux, Disk
 - TryHackMe: DFIR Introduction → Windows Forensics 1 → Windows Forensics 2 → Linux Forensics → Autopsy
-- This week establishes your artifact knowledge base. Take detailed notes on registry keys, file system structures, and artifact locations — you will reference these constantly in Phase 5.
-- Coursera: Complete Google Module 7 (Python automation) if not finished in Phase 3. Begin Module 8.
+- Take detailed notes on every artifact location covered: registry hive paths, file system structures, log file locations, browser artifact paths. You will reference these constantly in Phase 5.
+- Begin setting up your local forensics VM (see tool setup below).
+- Coursera: Complete Google Module 7 if not done. Begin Module 8.
 
-### Week 11 (August 5 – August 11) — Focus: Memory, Triage, Malware, Capstones
+### Week 11 (August 5 – August 11) — Memory, Triage, Malware, Capstones
 - TryHackMe: Redline → KAPE → Volatility → Velociraptor → TheHive → Intro to Malware Analysis
-- TryHackMe: Capstone investigations — Unattended, Disgruntled, Critical, Secret Recipe
-- Treat each capstone as a real case. Document your methodology, tools used, and findings in Obsidian or a markdown file. These notes directly become your Phase 5 report templates.
-- Coursera: Complete Module 8 and claim your Google Cybersecurity Professional Certificate. Post the badge on LinkedIn the same day.
-- **Milestone:** All Phase 4 rooms complete. Begin scoping Phase 5 projects.
+- TryHackMe: Capstone rooms — Unattended, Disgruntled, Critical, Secret Recipe
+- For every capstone: document your methodology, every tool run, every finding, and every artifact location in Obsidian or a markdown file. These notes become your Phase 5 report templates.
+- Coursera: Complete Module 8. Claim your Google Cybersecurity Professional Certificate. Post the badge on LinkedIn the same day.
+- **Milestone:** All Phase 4 rooms complete. Scope Phase 5 projects.
 
 ---
 
-## ⭐ Priority Rooms to Slow Down On
+## ⭐ Priority Rooms for a Forensic Examiner
 
-**DFIR: An Introduction** — Sets the methodology you use for every investigation: Identification → Preservation → Collection → Examination → Analysis → Reporting. Know this cold. It is the first thing you say in an interview when asked to walk through an investigation.
+**DFIR: An Introduction** — The six-phase methodology is not optional: Identification → Preservation → Collection → Examination → Analysis → Reporting. Every professional examination follows this sequence. It is also the first thing you say in any interview when asked to walk through an investigation. Know it without thinking.
 
-**Volatility** — Memory forensics is the hardest DFIR skill to learn and the one that most differentiates candidates. Spend extra time here. Know these plugins cold: windows.pslist, windows.pstree, windows.cmdline, windows.netscan, windows.malfind, windows.dlllist. Understand what each reveals and when you would use it.
+**Windows Forensics 1 and 2** — The artifact categories covered here are the foundation of most corporate forensic cases: registry hives (SAM, SYSTEM, SOFTWARE, NTUSER.DAT), UserAssist, ShimCache, AmCache, MUICache, Shellbags, Prefetch, LNK files, Jump Lists, browser artifacts, and the Recycle Bin. Take meticulous notes including the exact registry key paths and file system locations. You will be hunting these in Projects 2 and 4.
 
-**Windows Forensics 1 and 2** — Registry hive locations, UserAssist, ShimCache, MUICache, Shellbags, LNK files, Jump Lists, browser artifacts. These are the artifacts you will hunt in Projects 2 and 4.
+**Volatility** — Memory forensics is what differentiates candidates. Know these plugins cold and understand what each reveals:
+  - `windows.pslist` / `windows.pstree` — running processes and parent-child relationships
+  - `windows.cmdline` — command-line arguments passed to each process
+  - `windows.netscan` — active and recently closed network connections
+  - `windows.malfind` — memory regions with suspicious characteristics (injected code)
+  - `windows.dlllist` — loaded DLLs per process (spot hijacked or injected DLLs)
+  - `windows.handles` — open handles (files, registry keys, mutexes)
 
-**KAPE** — Rapid triage tool used in real enterprise incident response. Understanding KAPE targets and modules lets you collect the right artifacts without imaging an entire disk. Very commonly asked about in DFIR interviews.
+**KAPE** — Rapid triage tool used in real enterprise IR. KAPE collects the right artifacts without imaging an entire disk, which is critical in time-sensitive response scenarios. Understanding KAPE Targets and Modules directly maps to how you would scope artifact collection in a real case.
 
-**Unattended and Disgruntled** — These are the closest rooms to a real investigation scenario in the entire module. Write a full forensic report for both using the Phase 5 schema. By the time you finish these, you should be able to produce a professional investigation report from scratch.
+**Unattended and Disgruntled** — These are the closest rooms in the entire module to a real casework scenario. Write a full forensic report for both using the Phase 5 schema. Do not treat them as CTF boxes. By the time you finish these reports, you should be able to produce professional investigation documentation from scratch.
 
 ---
 
-## 🧰 Tools to Have Ready Before Phase 5
+## 🧰 Tool Setup — Local Forensics Environment
 
-Install these on Kali Linux or a dedicated forensics VM. If you do not want to set up a local VM, the TryHackMe AttackBox handles all in-browser labs.
+Build this before Phase 5 begins. The TryHackMe AttackBox handles in-browser labs, but you need a local environment for your portfolio projects.
 
 ```bash
 # On Kali Linux
-sudo apt install autopsy sleuthkit foremost volatility3 wireshark
+sudo apt update && sudo apt install -y autopsy sleuthkit foremost tshark wireshark
 
-# KAPE — Windows only, download from Kroll
-# https://www.kroll.com/en/services/cyber-risk/incident-response-litigation-support/kroll-artifact-parser-extractor-kape
+# Volatility 3
+pip3 install volatility3
 
-# Eric Zimmerman Tools — Windows forensics suite
-# https://ericzimmerman.github.io/
+# KAPE — Windows only
+# Download from: https://www.kroll.com/en/services/cyber-risk/incident-response-litigation-support/kroll-artifact-parser-extractor-kape
 
-# REMnux — dedicated Linux VM for malware analysis
-# https://remnux.org/
+# Eric Zimmerman Tools (Windows) — mandatory for Windows artifact analysis
+# Full suite: https://ericzimmerman.github.io/
+# Priority tools: MFTECmd, PECmd, LECmd, JLECmd, ShellBags Explorer, Registry Explorer, RECmd, Timeline Explorer
+
+# FTK Imager (free, Windows)
+# Download from: https://www.exterro.com/ftk-imager
+
+# Magnet AXIOM — request a 30-day trial
+# https://www.magnetforensics.com/products/magnet-axiom/
+
+# REMnux — dedicated Linux malware analysis VM
+# Download from: https://remnux.org/
 ```
 
 ---
 
-## 📋 Forensic Investigation Methodology Reference
+## 📋 Forensic Examination Methodology Reference
 
-Every investigation follows this exact workflow. Internalize it.
+Every examination follows this workflow without exception.
 
 ```
-1. IDENTIFICATION   → What happened? What systems are involved?
-2. PRESERVATION     → Image the disk and memory — never touch the original evidence
-3. COLLECTION       → Gather artifacts: logs, registry, browser history, prefetch, LNK files
-4. EXAMINATION      → Parse artifacts with tools: Autopsy, Volatility, KAPE, Regripper
-5. ANALYSIS         → Connect the dots — build a timeline, identify TTPs
-6. REPORTING        → Document findings clearly with evidence, hashes, and MITRE mapping
+1. IDENTIFICATION   → What incident occurred? What systems are potentially involved?
+2. PRESERVATION     → Image the disk (FTK Imager) and memory dump before any other action.
+                      Calculate and record MD5 + SHA-256 hashes of all evidence.
+                      Never work on original evidence — always work on verified copies.
+3. COLLECTION       → Gather artifacts: registry hives, event logs, prefetch, browser history,
+                      LNK files, shellbags, USB artifacts, MFT, SRUM database.
+4. EXAMINATION      → Parse artifacts with tools: Autopsy, Volatility, KAPE, EZ Tools, Regripper.
+5. ANALYSIS         → Build the timeline. Map behaviors to MITRE ATT&CK. Identify TTPs.
+                      Answer: who, what, when, where, and how.
+6. REPORTING        → Document all findings with artifact paths, SHA-256 hashes, screenshots,
+                      and timestamps. Every claim must be supported by documented evidence.
+                      Write for an audience that may include a judge or jury.
 ```
+
+---
+
+## ⚖️ Evidence Integrity — The Non-Negotiables
+
+These are not best practices. They are professional requirements. Begin treating them as mandatory now.
+
+- **Never examine original evidence.** Always work on a verified forensic copy.
+- **Hash everything, every time.** Calculate MD5 and SHA-256 at acquisition and again before examination. If the hashes match, the evidence is unmodified.
+- **Document every action you take.** If you ran a tool against the evidence, write it down: tool name, version, command or configuration used, date and time, and what output was produced.
+- **Maintain chain of custody.** Record who has had access to the evidence and when.
+- **Write for a non-technical reader.** Your report will be read by attorneys, HR departments, or judges. Define every technical term you use.
 
 ---
 
 ## 🔗 Supplemental Resources
 
-- **Volatility 3 Command Reference:** [GitHub Cheatsheet](https://github.com/volatilityfoundation/volatility3/blob/develop/DOCS/v3-cheatsheet.md) — Keep this open during every memory analysis lab.
-- **Digital Corpora:** [digitalcorpora.org](https://digitalcorpora.org/) — Free realistic disk images and packet dumps for forensic practice.
-- **SANS Windows Forensic Analysis Poster:** [SANS](https://www.sans.org/posters/windows-forensic-analysis/) — Visual map of every registry key, prefetch file, and event log that records user activity.
-- **Sandfly Security Blog:** [sandflysecurity.com](https://sandflysecurity.com/blog/) — Linux rootkit and credential theft forensics. Deep technical content.
-- **13Cubed YouTube Channel:** [youtube.com/@13Cubed](https://www.youtube.com/@13Cubed) — Best free DFIR video content available. Watch alongside the Volatility and Windows forensics rooms.
+- **13Cubed YouTube Channel:** [youtube.com/@13Cubed](https://www.youtube.com/@13Cubed) — Best free DFIR video content available. Watch alongside every Windows forensics and Volatility room.
+- **Volatility 3 Plugin Reference:** [GitHub](https://github.com/volatilityfoundation/volatility3) — Authoritative plugin documentation.
+- **SANS Windows Forensic Analysis Poster:** [sans.org/posters](https://www.sans.org/posters/windows-forensic-analysis/) — Visual map of every registry key, prefetch file, and event log that records user activity. Print it.
+- **Digital Corpora:** [digitalcorpora.org](https://digitalcorpora.org/) — Free realistic disk images and memory dumps.
+- **Magnet Forensics CTF Archives:** [magnetforensics.com/blog](https://www.magnetforensics.com/blog/) — Magnet releases forensic CTF images annually with writeups. Excellent real-world practice.
+- **SWGDE Documents:** [swgde.org](https://www.swgde.org/documents/published) — Professional standards every examiner is expected to know.
 
 ---
 
