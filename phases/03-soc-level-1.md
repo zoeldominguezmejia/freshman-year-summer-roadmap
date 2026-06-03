@@ -19,105 +19,104 @@ Assets and threat management, detection and response pipelines, and Python autom
 
 ## ✅ Full Room Checklist
 
+## ✅ Full Room Checklist
+
+> **Key:** ⭐ = go slow, take full notes | ➡️ = normal pace | ⚡ = go fast, just complete it
+
 ### Section 1: Blue Team Introduction
-- [ ] Junior Security Analyst Intro
-- [ ] SOC Role in Blue Team
-- [ ] Humans as Attack Vectors
-- [ ] Systems as Attack Vectors
+- [ ] ➡️ Junior Security Analyst Intro
+- [ ] ➡️ SOC Role in Blue Team
+- [ ] ⭐ Humans as Attack Vectors *(social engineering is the initial access vector in a large percentage of the cases you will examine — understand it deeply)*
+- [ ] ➡️ Systems as Attack Vectors
 
 ### Section 2: SOC Team Internals
-- [ ] SOC L1 Alert Triage
-- [ ] SOC L1 Alert Reporting
-- [ ] SOC Workbooks and Lookups
-- [ ] SOC Metrics and Objectives
-- [ ] Introduction to Phishing
+- [ ] ⭐ SOC L1 Alert Triage *(understand how a case gets handed to an examiner — this is the workflow upstream of your job)*
+- [ ] ⭐ SOC L1 Alert Reporting *(report writing discipline starts here — the habits are the same ones you need for forensic reports)*
+- [ ] ➡️ SOC Workbooks and Lookups
+- [ ] ⚡ SOC Metrics and Objectives *(just complete it)*
+- [ ] ⭐ Introduction to Phishing *(phishing is the initial access vector you will most commonly reconstruct as an examiner)*
 
 ### Section 3: Core SOC Solutions
-- [ ] Introduction to EDR
-- [ ] Introduction to SIEM
-- [ ] Splunk: The Basics ⭐
-- [ ] Elastic Stack: The Basics ⭐
-- [ ] Introduction to SOAR
+- [ ] ➡️ Introduction to EDR
+- [ ] ➡️ Introduction to SIEM
+- [ ] ⭐ Splunk: The Basics *(Splunk log analysis is a real examiner skill — go slow and get comfortable with SPL queries)*
+- [ ] ⭐ Elastic Stack: The Basics *(same as Splunk — both platforms appear in enterprise forensic environments)*
+- [ ] ⚡ Introduction to SOAR *(just complete it)*
 
 ### Section 4: Cyber Defence Frameworks
-- [ ] Pyramid Of Pain ⭐
-- [ ] Cyber Kill Chain ⭐ *(the attacker's timeline that you will later reconstruct from artifacts)*
-- [ ] Unified Kill Chain
-- [ ] MITRE ⭐ *(most important framework in the field — map every technique you see to ATT&CK)*
-- [ ] Summit
-- [ ] Eviction
+- [ ] ⭐ Pyramid Of Pain *(memorize this — it frames how you prioritize IOCs in any investigation)*
+- [ ] ⭐ Cyber Kill Chain *(this is the attacker timeline you will reconstruct from artifacts — know every stage)*
+- [ ] ➡️ Unified Kill Chain
+- [ ] ⭐ MITRE *(the most important framework in defensive security — map every technique you encounter to ATT&CK from this point forward)*
+- [ ] ➡️ Summit
+- [ ] ⚡ Eviction *(just complete it)*
 
 ### Section 5: Phishing Analysis
-- [ ] Phishing Analysis Fundamentals
-- [ ] Phishing Emails in Action
-- [ ] Phishing Analysis Tools
-- [ ] Phishing Prevention
-- [ ] The Greenholt Phish
-- [ ] Snapped Phish-ing Line
-- [ ] Phishing Unfolding
+- [ ] ⭐ Phishing Analysis Fundamentals *(email header analysis is a direct examiner skill — goes straight into Project 3)*
+- [ ] ⭐ Phishing Emails in Action *(go slow — recognize the patterns you will later document in reports)*
+- [ ] ⭐ Phishing Analysis Tools *(these are tools you will actually use)*
+- [ ] ➡️ Phishing Prevention
+- [ ] ⭐ The Greenholt Phish *(treat this like a real case — document your findings as if writing a report)*
+- [ ] ⭐ Snapped Phish-ing Line *(same — full investigation mindset)*
+- [ ] ⭐ Phishing Unfolding *(same)*
 
 ### Section 6: Network Traffic Analysis
-- [ ] Network Traffic Basics
-- [ ] Wireshark: The Basics *(quick pass)*
-- [ ] Wireshark: Packet Operations ⭐
-- [ ] Wireshark: Traffic Analysis ⭐
-- [ ] NetworkMiner ⭐ *(excellent for extracting files, credentials, and artifacts from PCAP files)*
+- [ ] ➡️ Network Traffic Basics
+- [ ] ⚡ Wireshark: The Basics *(covered in Phase 2 — just complete it)*
+- [ ] ⭐ Wireshark: Packet Operations *(filtering, following streams, extracting files from PCAP — examiner skills)*
+- [ ] ⭐ Wireshark: Traffic Analysis *(identifying C2 traffic, exfiltration patterns, and anomalies — goes directly into Project 3)*
+- [ ] ⭐ NetworkMiner *(extracts files, credentials, and host artifacts directly from PCAP — this is a forensic tool, not just a monitoring tool)*
 
 ### Section 7: Network Security Monitoring
-- [ ] Network Security Essentials
-- [ ] Network Discovery Detection
-- [ ] Data Exfiltration Detection ⭐ *(exfiltration cases are a core examiner scenario — study this closely)*
-- [ ] Man-in-the-Middle Detection
-- [ ] IDS Fundamentals *(quick pass)*
-- [ ] Snort
+- [ ] ➡️ Network Security Essentials
+- [ ] ➡️ Network Discovery Detection
+- [ ] ⭐ Data Exfiltration Detection *(exfiltration cases are one of the most common examiner scenarios — study the detection patterns and then flip the question: what artifacts prove this happened?)*
+- [ ] ➡️ Man-in-the-Middle Detection
+- [ ] ⚡ IDS Fundamentals *(covered in Phase 2 — just complete it)*
+- [ ] ➡️ Snort
 
 ### Section 8: Web Security Monitoring
-- [ ] Web Security Essentials
-- [ ] Detecting Web Attacks
-- [ ] Detecting Web Shells
-- [ ] Detecting Web DDoS
+- [ ] ➡️ Web Security Essentials
+- [ ] ➡️ Detecting Web Attacks *(web server logs are a forensic artifact — understand what attack patterns look like in log form)*
+- [ ] ➡️ Detecting Web Shells *(web shells leave artifacts on disk and in logs — worth a normal pass)*
+- [ ] ⚡ Detecting Web DDoS *(just complete it)*
 
 ### Section 9: Windows Security Monitoring
-- [ ] Windows Logging for SOC ⭐
-- [ ] Windows Threat Detection 1 ⭐
-- [ ] Windows Threat Detection 2 ⭐
-- [ ] Windows Threat Detection 3 ⭐
+- [ ] ⭐ Windows Logging for SOC *(this is Windows artifact knowledge in disguise — every log source covered here is something you will parse as an examiner)*
+- [ ] ⭐ Windows Threat Detection 1 *(Windows Event IDs and Sysmon logs are core forensic evidence — go slow)*
+- [ ] ⭐ Windows Threat Detection 2 *(same — take notes on every Event ID covered)*
+- [ ] ⭐ Windows Threat Detection 3 *(same — by the end of this section you should know the key Event IDs cold)*
 
 ### Section 10: Linux Security Monitoring
-- [ ] Linux Logging for SOC
-- [ ] Linux Threat Detection 1
-- [ ] Linux Threat Detection 2
-- [ ] Linux Threat Detection 3
+- [ ] ⭐ Linux Logging for SOC *(Linux log locations and formats are directly relevant to Linux forensics in Phase 4)*
+- [ ] ➡️ Linux Threat Detection 1
+- [ ] ➡️ Linux Threat Detection 2
+- [ ] ➡️ Linux Threat Detection 3
 
 ### Section 11: Malware Concepts for SOC
-- [ ] Malware Classification ⭐
-- [ ] Intro to Malware Analysis ⭐
-- [ ] Living Off the Land Attacks ⭐ *(LOLBins appear in almost every modern incident you will examine)*
-- [ ] Shadow Trace
+- [ ] ⭐ Malware Classification *(know the taxonomy cold — ransomware, RAT, rootkit, wiper, infostealer — you will classify malware in your reports)*
+- [ ] ⭐ Intro to Malware Analysis *(safe triage workflow — this feeds directly into Phase 4 and Project 2)*
+- [ ] ⭐ Living Off the Land Attacks *(LOLBins appear in almost every modern incident you will examine — know certutil, mshta, regsvr32, wmic, and powershell abuse patterns)*
+- [ ] ➡️ Shadow Trace
 
 ### Section 12: Threat Analysis Tools
-- [ ] Intro to Cyber Threat Intel
-- [ ] File and Hash Threat Intel
-- [ ] IP and Domain Threat Intel
-- [ ] Invite Only
+- [ ] ➡️ Intro to Cyber Threat Intel
+- [ ] ⭐ File and Hash Threat Intel *(VirusTotal and hash-based IOC lookups are part of every forensic report)*
+- [ ] ➡️ IP and Domain Threat Intel
+- [ ] ➡️ Invite Only
 
 ### Section 13: SIEM Triage for SOC
-- [ ] Log Analysis with SIEM
-- [ ] Alert Triage With Splunk ⭐
-- [ ] Alert Triage With Elastic ⭐
-- [ ] ItsyBitsy
-- [ ] Benign
+- [ ] ⭐ Log Analysis with SIEM *(log parsing is an examiner skill regardless of whether SIEM is involved)*
+- [ ] ⭐ Alert Triage With Splunk *(hands-on SPL — go slow)*
+- [ ] ⭐ Alert Triage With Elastic *(hands-on KQL — go slow)*
+- [ ] ➡️ ItsyBitsy
+- [ ] ➡️ Benign
 
 ### Section 14: SOC Level 1 Capstone Challenges
-- [ ] Tempest
-- [ ] Boogeyman 1 ⭐
-- [ ] Boogeyman 2 ⭐
-- [ ] Boogeyman 3 ⭐
-
-### UNCC Coursera — Google Cybersecurity Certificate
-- [ ] Module 5: Assets, Threats, and Vulnerabilities
-- [ ] Module 6: Sound the Alarm: Detection and Response
-- [ ] Module 7: Automate Cybersecurity Tasks with Python
+- [ ] ➡️ Tempest
+- [ ] ⭐ Boogeyman 1 *(treat this as a real investigation — write a full report for at least one of the three)*
+- [ ] ⭐ Boogeyman 2 *(full investigation mindset)*
+- [ ] ⭐ Boogeyman 3 *(full investigation mindset — by the time you finish these your Phase 5 report writing will be dramatically cleaner)*
 
 ---
 
