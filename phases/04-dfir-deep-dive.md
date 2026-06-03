@@ -19,42 +19,43 @@ Complete Module 8 (career preparation, portfolio building, interview prep) and c
 
 ## ✅ Full Room Checklist
 
+> **Key:** ⭐ = go slow, take full notes | ➡️ = normal pace | ⚡ = go fast, just complete it
+
 ### Forensic Foundations & Windows Artifacts
-- [ ] DFIR: An Introduction ⭐ *(methodology framework for every examination you will ever conduct)*
-- [ ] Windows Forensics 1 ⭐ — Windows Registry forensics
-- [ ] Windows Forensics 2 ⭐ — Windows file systems and file system artifacts
+- [ ] ⭐ DFIR: An Introduction *(the six-phase methodology is the framework you will use for every examination you ever conduct — know it without thinking)*
+- [ ] ⭐ Windows Forensics 1 *(registry hive locations, UserAssist, ShimCache, AmCache, MUICache — take meticulous notes including exact registry key paths; you will be hunting these in Projects 1 and 5)*
+- [ ] ⭐ Windows Forensics 2 *(Prefetch, LNK files, Jump Lists, Shellbags, browser artifacts, Recycle Bin — same level of note-taking; these artifact locations do not change and you will reference your notes constantly)*
 
 ### Linux Forensics
-- [ ] Linux Forensics ⭐ — Forensic artifacts in the Linux file system
+- [ ] ⭐ Linux Forensics *(log locations, bash history, cron jobs, passwd and shadow files, and file system timestamps — Project 4 cold case work may involve Linux systems)*
 
 ### Disk Forensics
-- [ ] Autopsy ⭐ — Full disk forensics with Autopsy (employee data leak case)
+- [ ] ⭐ Autopsy *(this is your primary free examination platform — get genuinely comfortable with the interface, not just familiar with it; go slow through every feature)*
 
 ### Endpoint & Memory Triage
-- [ ] Redline — Endpoint memory analysis and IOC scanning (Mandiant)
-- [ ] KAPE ⭐ — Rapid artifact collection without full disk imaging
-- [ ] Volatility ⭐ — Memory forensics framework (the hardest skill in DFIR — spend the most time here)
-- [ ] Velociraptor — Advanced endpoint monitoring and forensic response platform
+- [ ] ➡️ Redline *(worth a normal pass — useful tool, but Volatility is where you will spend the most time in real casework)*
+- [ ] ⭐ KAPE *(rapid artifact collection without full imaging — know the difference between Targets and Modules, and understand why this matters in time-sensitive response scenarios)*
+- [ ] ⭐ Volatility *(the hardest and most differentiating skill in this entire roadmap — go slower here than anywhere else; work through every plugin listed in the phase notes and make sure you understand what each one reveals and when you would use it)*
+- [ ] ➡️ Velociraptor *(enterprise-scale tool worth understanding conceptually — normal pace is fine at this stage)*
 
 ### Case Management
-- [ ] TheHive Project — Security Incident Response Platform for documenting findings
+- [ ] ➡️ TheHive Project *(understand the workflow — normal pace is fine; the documentation habits matter more than the specific tool)*
 
 ### Malware Analysis
-- [ ] Intro to Malware Analysis ⭐ — Safe triage workflow for suspected malware
+- [ ] ⭐ Intro to Malware Analysis *(safe triage workflow for suspected malware — this feeds directly into Project 2; understand the static and dynamic analysis distinction cold)*
 
 ### Capstone Investigations
-- [ ] Unattended ⭐ — Windows forensics investigation: apply everything from Windows Forensics 1 & 2
-- [ ] Disgruntled ⭐ — Linux forensics investigation: apply Linux forensics knowledge
-- [ ] Critical — Memory dump analysis in a practical scenario
-- [ ] Secret Recipe ⭐ — Registry forensics case
+- [ ] ⭐ Unattended *(treat this as a real case, not a CTF — write a full forensic report using the Phase 5 schema; this is your first full dress rehearsal for Project 1)*
+- [ ] ⭐ Disgruntled *(same standard — full report; Linux forensics applied to a real scenario)*
+- [ ] ➡️ Critical *(solid memory forensics practice — normal pace, apply Volatility skills)*
+- [ ] ⭐ Secret Recipe *(registry forensics case — go slow; the artifact hunting here directly mirrors what you will do in Project 1)*
 
 ### UNCC Coursera — Google Cybersecurity Certificate
-- [ ] Module 7: Automate Cybersecurity Tasks with Python *(complete if not finished in Phase 3)*
-- [ ] Module 8: Put It to Work — Prepare for Cybersecurity Jobs
+- [ ] ➡️ Module 7: Automate Cybersecurity Tasks with Python *(complete if not finished in Phase 3)*
+- [ ] ➡️ Module 8: Put It to Work — Prepare for Cybersecurity Jobs
 - [ ] **MILESTONE: Claim Google Cybersecurity Professional Certificate**
 
 ---
-
 ## 📝 Phase 4 Schedule
 
 ### Week 10 (July 30 – August 5) — Foundations, Windows, Linux, Disk
