@@ -1,6 +1,5 @@
 # Phase 4 — Digital Forensics Examiner Deep Dive & Google Certificate Graduation
-**Timeline: July 29 – August 11 | ~40 hours | ~20 hrs/week**
-
+**Timeline: July 30 – August 12 | ~40 hours | ~20 hrs/week**
 ---
 
 ## 🎯 Goal
@@ -58,16 +57,16 @@ Complete Module 8 (career preparation, portfolio building, interview prep) and c
 
 ## 📝 Phase 4 Schedule
 
-### Week 10 (July 29 – August 4) — Foundations, Windows, Linux, Disk
+### Week 10 (July 30 – August 5) — Foundations, Windows, Linux, Disk
 - TryHackMe: DFIR Introduction → Windows Forensics 1 → Windows Forensics 2 → Linux Forensics → Autopsy
-- Take detailed notes on every artifact location covered: registry hive paths, file system structures, log file locations, browser artifact paths. You will reference these constantly in Phase 5.
-- Begin setting up your local forensics VM (see tool setup below).
+- Take detailed notes on every artifact location: registry hive paths, file system structures, log file locations, browser artifact paths.
+- Begin setting up your local forensics VM.
 - Coursera: Complete Google Module 7 if not done. Begin Module 8.
 
-### Week 11 (August 5 – August 11) — Memory, Triage, Malware, Capstones
+### Week 11 (August 6 – August 12) — Memory, Triage, Malware, Capstones
 - TryHackMe: Redline → KAPE → Volatility → Velociraptor → TheHive → Intro to Malware Analysis
 - TryHackMe: Capstone rooms — Unattended, Disgruntled, Critical, Secret Recipe
-- For every capstone: document your methodology, every tool run, every finding, and every artifact location in Obsidian or a markdown file. These notes become your Phase 5 report templates.
+- Document methodology, tools, and findings for every capstone in Obsidian or markdown. These become your Phase 5 templates.
 - Coursera: Complete Module 8. Claim your Google Cybersecurity Professional Certificate. Post the badge on LinkedIn the same day.
 - **Milestone:** All Phase 4 rooms complete. Scope Phase 5 projects.
 
