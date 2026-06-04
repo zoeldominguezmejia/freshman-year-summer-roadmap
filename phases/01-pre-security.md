@@ -34,7 +34,7 @@ Build the baseline technical and legal vocabulary needed across both practical l
 - [x] ⚡ Topic Transition Recap
 
 ### Module 4: Computer Fundamentals
-- [ ] ⭐ Inside a Computer System *(storage types, memory hierarchy, and how data persists — directly relevant to understanding why deleted files are recoverable)*
+- [x] ⭐ Inside a Computer System *(storage types, memory hierarchy, and how data persists — directly relevant to understanding why deleted files are recoverable)*
 - [ ] ➡️ Computer Types
 - [ ] ➡️ Client-Server Basics
 - [ ] ⭐ Virtualisation Basics *(most forensic lab work happens in VMs — get comfortable with the concept and understand how VM disk artifacts differ from physical machines)*
