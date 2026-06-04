@@ -15,8 +15,8 @@ Build the baseline technical and legal vocabulary needed across both practical l
 ### Module 1: Introduction to Cyber Security
 - [x] ➡️ Offensive Security Intro
 - [x] ➡️ Defensive Security Intro
-- [ ] ➡️ Careers in Cyber
-- [ ] ⚡ Topic Transition Recap
+- [x] ➡️ Careers in Cyber
+- [x] ⚡ Topic Transition Recap
 
 ### Module 2: Network Fundamentals
 - [x] ➡️ What is Networking?
@@ -24,14 +24,14 @@ Build the baseline technical and legal vocabulary needed across both practical l
 - [x] ⭐ OSI Model *(understanding where data lives at each layer matters when you are analyzing PCAP files and network artifacts later)*
 - [x] ⭐ Packets & Frames *(packets are what Wireshark shows you — understand what you are actually looking at before you get there)*
 - [x] ➡️ Extending Your Network
-- [ ] ⚡ Topic Transition Recap
+- [x] ⚡ Topic Transition Recap
 
 ### Module 3: How The Web Works
 - [x] ➡️ DNS in Detail
 - [x] ⭐ HTTP in Detail *(HTTP requests and responses appear constantly in browser history artifacts and web server logs — understand the structure cold)*
-- [ ] ➡️ How Websites Work
-- [ ] ➡️ Putting it all together
-- [ ] ⚡ Topic Transition Recap
+- [x] ➡️ How Websites Work
+- [x] ➡️ Putting it all together
+- [x] ⚡ Topic Transition Recap
 
 ### Module 4: Computer Fundamentals
 - [ ] ⭐ Inside a Computer System *(storage types, memory hierarchy, and how data persists — directly relevant to understanding why deleted files are recoverable)*
