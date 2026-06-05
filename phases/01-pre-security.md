@@ -37,7 +37,7 @@ Build the baseline technical and legal vocabulary needed across both practical l
 - [x] ⭐ Inside a Computer System *(storage types, memory hierarchy, and how data persists — directly relevant to understanding why deleted files are recoverable)*
 - [x] ➡️ Computer Types
 - [x] ➡️ Client-Server Basics
-- [ ] ⭐ Virtualisation Basics *(most forensic lab work happens in VMs — get comfortable with the concept and understand how VM disk artifacts differ from physical machines)*
+- [x] ⭐ Virtualisation Basics *(most forensic lab work happens in VMs — get comfortable with the concept and understand how VM disk artifacts differ from physical machines)*
 - [ ] ➡️ Cloud Computing Fundamentals
 - [ ] ⚡ Topic Rewind Recap
 
