@@ -38,8 +38,8 @@ Build the baseline technical and legal vocabulary needed across both practical l
 - [x] ➡️ Computer Types
 - [x] ➡️ Client-Server Basics
 - [x] ⭐ Virtualisation Basics *(most forensic lab work happens in VMs — get comfortable with the concept and understand how VM disk artifacts differ from physical machines)*
-- [ ] ➡️ Cloud Computing Fundamentals
-- [ ] ⚡ Topic Rewind Recap
+- [x] ➡️ Cloud Computing Fundamentals
+- [x] ⚡ Topic Rewind Recap
 
 ### Module 5: Operating Systems Basics
 - [ ] ⭐ Operating Systems: Introduction *(how the OS manages processes, memory, and storage is the foundation for understanding what artifacts get created and why)*
