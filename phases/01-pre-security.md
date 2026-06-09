@@ -42,7 +42,7 @@ Build the baseline technical and legal vocabulary needed across both practical l
 - [x] ⚡ Topic Rewind Recap
 
 ### Module 5: Operating Systems Basics
-- [ ] ⭐ Operating Systems: Introduction *(how the OS manages processes, memory, and storage is the foundation for understanding what artifacts get created and why)*
+- [x] ⭐ Operating Systems: Introduction *(how the OS manages processes, memory, and storage is the foundation for understanding what artifacts get created and why)*
 - [ ] ⭐ Windows Basics *(the Windows OS generates the majority of artifacts you will examine in your career — pay attention to every detail covered here)*
 - [ ] ➡️ Linux CLI Basics
 - [ ] ⭐ Windows CLI Basics *(command line activity leaves artifacts in Prefetch, event logs, and PowerShell history — understand what each command does)*
