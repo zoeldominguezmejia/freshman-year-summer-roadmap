@@ -45,12 +45,12 @@ Build the baseline technical and legal vocabulary needed across both practical l
 - [x] ⭐ Operating Systems: Introduction *(how the OS manages processes, memory, and storage is the foundation for understanding what artifacts get created and why)*
 - [x] ⭐ Windows Basics *(the Windows OS generates the majority of artifacts you will examine in your career — pay attention to every detail covered here)*
 - [x] ➡️ Linux CLI Basics
-- [ ] ⭐ Windows CLI Basics *(command line activity leaves artifacts in Prefetch, event logs, and PowerShell history — understand what each command does)*
-- [ ] ⭐ Operating System Security *(every security event the OS logs is a potential artifact — pay attention to what gets recorded and where)*
-- [ ] ⚡ Topic Rewind Recap
+- [x] ⭐ Windows CLI Basics *(command line activity leaves artifacts in Prefetch, event logs, and PowerShell history — understand what each command does)*
+- [x] ⭐ Operating System Security *(every security event the OS logs is a potential artifact — pay attention to what gets recorded and where)*
+- [x] ⚡ Topic Rewind Recap
 
 ### Module 6: Software Basics
-- [ ] ⭐ Data Representation *(hex, binary, and ASCII are what you read when you open a file in a hex editor — you will do this regularly in disk forensics and file carving)*
+- [x] ⭐ Data Representation *(hex, binary, and ASCII are what you read when you open a file in a hex editor — you will do this regularly in disk forensics and file carving)*
 - [ ] ⭐ Data Encoding *(Base64 and other encodings appear constantly in malware, phishing payloads, and browser artifacts — you will decode these with CyberChef)*
 - [ ] ➡️ Python: Simple Demo
 - [ ] ⚡ JavaScript: Simple Demo *(just complete it)*
