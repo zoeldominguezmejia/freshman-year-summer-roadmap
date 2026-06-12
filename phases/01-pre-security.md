@@ -51,7 +51,7 @@ Build the baseline technical and legal vocabulary needed across both practical l
 
 ### Module 6: Software Basics
 - [x] ⭐ Data Representation *(hex, binary, and ASCII are what you read when you open a file in a hex editor — you will do this regularly in disk forensics and file carving)*
-- [ ] ⭐ Data Encoding *(Base64 and other encodings appear constantly in malware, phishing payloads, and browser artifacts — you will decode these with CyberChef)*
+- [x] ⭐ Data Encoding *(Base64 and other encodings appear constantly in malware, phishing payloads, and browser artifacts — you will decode these with CyberChef)*
 - [ ] ➡️ Python: Simple Demo
 - [ ] ⚡ JavaScript: Simple Demo *(just complete it)*
 - [ ] ⭐ Database SQL Basics *(browser history, communication apps, and many OS features store data in SQLite databases — SQL knowledge lets you query them directly)*
