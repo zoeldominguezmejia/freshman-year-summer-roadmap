@@ -53,9 +53,9 @@ Build the baseline technical and legal vocabulary needed across both practical l
 - [x] ⭐ Data Representation *(hex, binary, and ASCII are what you read when you open a file in a hex editor — you will do this regularly in disk forensics and file carving)*
 - [x] ⭐ Data Encoding *(Base64 and other encodings appear constantly in malware, phishing payloads, and browser artifacts — you will decode these with CyberChef)*
 - [x] ➡️ Python: Simple Demo
-- [ ] ⚡ JavaScript: Simple Demo *(just complete it)*
-- [ ] ⭐ Database SQL Basics *(browser history, communication apps, and many OS features store data in SQLite databases — SQL knowledge lets you query them directly)*
-- [ ] ⚡ Topic Rewind Recap
+- [x] ⚡ JavaScript: Simple Demo *(just complete it)*
+- [x] ⭐ Database SQL Basics *(browser history, communication apps, and many OS features store data in SQLite databases — SQL knowledge lets you query them directly)*
+- [x] ⚡ Topic Rewind Recap
 
 ### Module 7: Attacks and Defenses
 - [ ] ⭐ The CIA Triad *(every forensic case ultimately comes back to a breach of confidentiality, integrity, or availability — frame every investigation around this)*
