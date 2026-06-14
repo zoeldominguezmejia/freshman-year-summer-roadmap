@@ -59,7 +59,7 @@ Build the baseline technical and legal vocabulary needed across both practical l
 
 ### Module 7: Attacks and Defenses
 - [x] ⭐ The CIA Triad *(every forensic case ultimately comes back to a breach of confidentiality, integrity, or availability — frame every investigation around this)*
-- [ ] ⭐ Cryptography Concepts *(hash verification is how you prove evidence integrity in court — MD5 and SHA-256 are not just security concepts, they are your chain of custody mechanism)*
+- [x] ⭐ Cryptography Concepts *(hash verification is how you prove evidence integrity in court — MD5 and SHA-256 are not just security concepts, they are your chain of custody mechanism)*
 - [ ] ➡️ Become a Hacker
 - [ ] ➡️ Become a Defender
 - [ ] ⚡ Topic Rewind Recap
