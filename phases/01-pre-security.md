@@ -60,30 +60,15 @@ Build the baseline technical and legal vocabulary needed across both practical l
 ### Module 7: Attacks and Defenses
 - [x] ⭐ The CIA Triad *(every forensic case ultimately comes back to a breach of confidentiality, integrity, or availability — frame every investigation around this)*
 - [x] ⭐ Cryptography Concepts *(hash verification is how you prove evidence integrity in court — MD5 and SHA-256 are not just security concepts, they are your chain of custody mechanism)*
-- [ ] ➡️ Become a Hacker
-- [ ] ➡️ Become a Defender
-- [ ] ⚡ Topic Rewind Recap
+- [x] ➡️ Become a Hacker
+- [x] ➡️ Become a Defender
+- [x] ⚡ Topic Rewind Recap
 
 ### Enterprise Governance (UNCC Coursera Portal)
 - [ ] ➡️ Coursera: Google Module 1 — Foundations of Cybersecurity
 - [ ] ➡️ Coursera: Google Module 2 — Play It Safe: Manage Security Risks
 ---
 
-## 📝 Practical Weekly Breakdown
-
-### Sprint Week 1 (June 3 – June 8) — Infrastructure & Foundations
-- Complete Module 4 (Computer Fundamentals) today — virtualisation and file systems are directly relevant to forensic imaging.
-- Complete Module 5 (Operating Systems Basics) — Windows and Linux CLI rooms.
-- Register for UNCC Coursera and complete Google Module 1.
-
-### Sprint Week 2 (June 9 – June 15) — OS, Software, Attacks & Defenses
-- Finish anything remaining from Module 5 (OS Basics including Operating System Security).
-- Complete Module 6 (Software Basics — data representation, encoding, Python/JS demos, SQL basics).
-- Complete Module 7 (Attacks and Defenses — CIA Triad, cryptography concepts, hacker/defender mindset).
-- Finish Coursera Google Module 2 (NIST Framework, SIEM introductions, Ethics).
-- **Milestone:** Claim **SEC0 Pre-Security Certificate** from TryHackMe.
-
----
 
 ## ⚖️ Examiner Mindset Notes for This Phase
 
