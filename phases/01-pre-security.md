@@ -65,8 +65,8 @@ Build the baseline technical and legal vocabulary needed across both practical l
 - [x] ⚡ Topic Rewind Recap
 
 ### Enterprise Governance (UNCC Coursera Portal)
-- [ ] ➡️ Coursera: Google Module 1 — Foundations of Cybersecurity
-- [ ] ➡️ Coursera: Google Module 2 — Play It Safe: Manage Security Risks
+- [x] ➡️ Coursera: Google Module 1 — Foundations of Cybersecurity
+- [x] ➡️ Coursera: Google Module 2 — Play It Safe: Manage Security Risks
 ---
 
 
