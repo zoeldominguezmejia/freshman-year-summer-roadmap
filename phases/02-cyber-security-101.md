@@ -19,8 +19,6 @@ Asset classification, network security models, Linux fundamentals for security, 
 
 ## ✅ Full Room Checklist
 
-## ✅ Full Room Checklist
-
 > **Key:** ⭐ = go slow, take full notes | ➡️ = normal pace | ⚡ = go fast, just complete it
 
 ### Section 1: Start Your Cyber Security Journey
