@@ -26,7 +26,7 @@ Asset classification, network security models, Linux fundamentals for security, 
 ### Section 1: Start Your Cyber Security Journey
 - [x] ⚡ Offensive Security Intro *(overlap from Phase 1 — just complete it)*
 - [x] ➡️ Defensive Security Intro *(overlap from Phase 1 — quick but read carefully)*
-- [ ] ➡️ Search Skills
+- [x] ➡️ Search Skills
 
 ### Section 2: Linux Fundamentals
 - [ ] ➡️ Linux Fundamentals Part 1
