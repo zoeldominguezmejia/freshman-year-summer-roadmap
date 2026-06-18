@@ -27,7 +27,7 @@ Asset classification, network security models, Linux fundamentals for security, 
 - [x] ➡️ Search Skills
 
 ### Section 2: Linux Fundamentals
-- [ ] ➡️ Linux Fundamentals Part 1
+- [x] ➡️ Linux Fundamentals Part 1
 - [ ] ➡️ Linux Fundamentals Part 2
 - [ ] ➡️ Linux Fundamentals Part 3
 > Linux matters for forensics — you will examine Linux file systems and parse Linux logs.
