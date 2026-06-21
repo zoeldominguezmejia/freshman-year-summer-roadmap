@@ -35,8 +35,8 @@ Asset classification, network security models, Linux fundamentals for security, 
 
 ### Section 3: Windows and AD Fundamentals
 - [x] ⭐ Windows Fundamentals 1 *(registry, file system, user accounts — all artifact sources)*
-- [ ] ⭐ Windows Fundamentals 2 *(system tools and configuration — understand what each one logs)*
-- [ ] ⭐ Windows Fundamentals 3 *(security features — understand what generates what evidence)*
+- [x] ⭐ Windows Fundamentals 2 *(system tools and configuration — understand what each one logs)*
+- [x] ⭐ Windows Fundamentals 3 *(security features — understand what generates what evidence)*
 - [ ] ⭐ Active Directory Basics *(enterprise cases almost always involve AD — take notes on users, groups, GPO, domain controllers)*
 
 ### Section 4: Command Line
