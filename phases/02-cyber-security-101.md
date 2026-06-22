@@ -1,4 +1,5 @@
 Cybersecurity Fundamentals Through a DFIR Lens
+
 **Timeline: June 16 – July 10 | ~55 hours | ~17 hrs/week**
 ---
 
@@ -6,14 +7,16 @@ Cybersecurity Fundamentals Through a DFIR Lens
 Build broad technical fluency across offensive and defensive cybersecurity while beginning to develop the forensic examiner's lens: what artifacts does each attack leave behind? This is TryHackMe's flagship 101 path — 14 sections covering Linux, Windows, networking, cryptography, web hacking, and defensive tooling. For you, the priority rooms are the ones that directly answer the question: *what evidence does this generate, and where does it live?*
 
 ---
+## Professional Development Objective
 
-## 📚 Dual-Platform Alignment
+The purpose of this phase is not to become an offensive security specialist.
 
-### 1. TryHackMe: Cyber Security 101 Path
-Hands-on experience across offense and defense. You are not training to be a pentester — you are training to understand what attackers do so you can reconstruct it from artifacts later.
+Instead, the objective is to understand:
 
-### 2. UNCC Coursera: Google Cybersecurity Certificate (Modules 3 & 4)
-Asset classification, network security models, Linux fundamentals for security, and SQL — all of which intersect with forensic examiner work.
+- How attacks occur
+- What evidence attacks leave behind
+- Where forensic artifacts are stored
+- How defenders detect malicious activity
 
 ---
 
@@ -113,24 +116,19 @@ Asset classification, network security models, Linux fundamentals for security, 
 ### Week 3 (June 16 – June 22) — OS, CLI, and Networking
 - TryHackMe: Sections 1–4 (Linux Fundamentals, Windows + AD Basics, Command Line)
 - TryHackMe: Begin Section 5 (Networking Concepts through Networking Secure Protocols)
-- Coursera: Begin Google Module 3
 
 ### Week 4 (June 23 – June 29) — Networking Tools, Crypto, and Exploitation
 - TryHackMe: Finish Section 5 (Wireshark, Tcpdump, Nmap)
 - TryHackMe: Section 6 (Cryptography — spend extra time on Hashing Basics)
 - TryHackMe: Section 7 (Exploitation — Metasploit suite and Blue)
-- Coursera: Complete Google Module 3, begin Module 4
 
 ### Week 5 (June 30 – July 6) — Web Hacking and Forensics Fundamentals Deep Pass
 - TryHackMe: Sections 8–9 (Web Hacking, Offensive Tooling)
 - TryHackMe: Section 10 — go slowly through Digital Forensics Fundamentals, IR Fundamentals, and Logs Fundamentals
-- Coursera: Complete Google Module 4
 
 ### Week 6 partial (July 7 – July 10) — Defensive Tooling and OWASP
 - TryHackMe: Sections 11–14
 - Spend significant time on CyberChef, CAPA, and REMnux
-- **Milestone:** Claim **SEC1 Cyber Security 101 Certificate** from TryHackMe
-
 ---
 
 ## ⭐ Priority Rooms for a Forensic Examiner
