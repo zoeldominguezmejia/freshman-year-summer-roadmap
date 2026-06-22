@@ -1,4 +1,4 @@
-# Phase 1 — Pre-Security, Academic Foundation Track, & Master Timeline
+# Phase 1 — Technical Foundations
 **Timeline: June 3 – June 15 | ~45 hours | ~22 hrs/week**
 
 ---
@@ -7,6 +7,18 @@
 Build the baseline technical and legal vocabulary needed across both practical labs and professional certification structures. For a digital forensics examiner, this phase has one additional objective beyond technical fluency: begin thinking about *why* the methodology matters, not just *how* to run a tool. Every habit you build here — documenting steps, verifying integrity, preserving originals — is a forensic habit.
 
 ---
+## Why This Phase Matters
+
+Digital forensics depends on understanding how systems normally operate before investigating how they were misused.
+
+This phase establishes foundational knowledge in:
+
+- Networking
+- Operating Systems
+- Web Technologies
+- Security Concepts
+
+Many forensic artifacts encountered later in DFIR investigations originate from concepts introduced in this phase.
 
 ## 📊 Live Master Progress Tracker & Room Checklist
 
@@ -90,17 +102,4 @@ Build the baseline technical and legal vocabulary needed across both practical l
 - **Intro to Digital Evidence Law (free read):** [SWGDE Best Practices](https://www.swgde.org/documents/published) — Start skimming SWGDE documents. These are the professional standards forensic examiners are expected to follow.
 
 ---
-
-## 🍁 Fall 2026 Academic & Cyber Co-Exist Log
-
-| Week | Academic Focus (UNCC) | Cyber/Forensics Maintenance (3–5 hrs/wk) | Status |
-|------|-----------------------|------------------------------------------|--------|
-| **Week 1** | Syllabus Week & Campus Routines | Set up forensics VM (REMnux + Kali) | [ ] Pending |
-| **Week 2** | ITCS 2214: Big-O Notation Basics | CyberDefenders: First forensics challenge | [ ] Pending |
-| **Week 3** | MATH 2164: Matrix Multiplications | TryHackMe: Revisit Volatility plugins | [ ] Pending |
-| **Week 4** | CJUS 1511: Rules of Criminal Evidence | Project 2: Windows Artifact Setup | [ ] Pending |
-| **Week 5** | ITCS 2214: Arrays & Linked Lists | Write up CyberDefenders challenge #2 | [ ] Pending |
-
----
-
 *[← Back to Main Roadmap](../README.md) | [Phase 2 →](./02-cyber-security-101.md)*
