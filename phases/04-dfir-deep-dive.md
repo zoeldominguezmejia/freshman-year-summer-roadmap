@@ -1,9 +1,17 @@
-# Phase 4 — Digital Forensics Examiner Deep Dive & Google Certificate Graduation
+Digital Forensics Foundations
+
 **Timeline: July 30 – August 12 | ~40 hours | ~20 hrs/week**
 ---
 
 ## 🎯 Goal
-Develop the core technical skills of a working digital forensics examiner. Every room in this phase maps directly to a tool category you will use professionally. The standard you are holding yourself to is not "complete the lab" — it is "could I defend these findings in a written report?" Complete the Google Cybersecurity Certificate during this phase.
+Develop the core technical skills of a working digital forensics examiner. Every room in this phase maps directly to a tool category you will use professionally. The goal of this phase is to move beyond tool usage and begin understanding forensic methodology.
+
+Success means understanding:
+
+- What evidence exists
+- Where evidence is stored
+- How evidence is collected
+- How findings are documented
 
 ---
 
