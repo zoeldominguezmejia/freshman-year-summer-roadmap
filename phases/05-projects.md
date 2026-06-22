@@ -229,7 +229,7 @@ Each technique document follows this structure:
 
 ---
 
-## 🔬 Project 5: Browser Artifact Parser
+## Potential Future Project: Browser Artifact Parser
 **Folder:** `./project-05-browser-parser/`
 **When:** January – February 2027
 **Type: Open Source Tool**
@@ -289,7 +289,7 @@ project-05-browser-parser/
 
 ---
 
-## 🔬 Project 6: KAPE Target Contribution
+## 🔬 Potential Open Source Contribution: KAPE Target Development
 **Folder:** `./project-06-kape-target/`
 **When:** March – April 2027
 **Type: Direct Open Source Contribution**
