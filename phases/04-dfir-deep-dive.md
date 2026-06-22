@@ -1,4 +1,4 @@
-**Digital Forensics Foundations**
+# **Digital Forensics Foundations**
 
 **Timeline: July 30 – August 12 | ~40 hours | ~20 hrs/week**
 ---
