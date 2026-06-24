@@ -1,13 +1,13 @@
-# Phase 3 — SOC Level 1 & Evidence Triage
-**Timeline: July 11 – July 29 | ~50 hours | ~17 hrs/week**
+# Phase 4 — Digital Forensics Foundations
+**Timeline: July 30 – August 12 | ~40 hours | ~20 hrs/week**
 
 ---
 
 ## Overview
 
-This phase teaches SOC Level 1 operations — but the reason it's in a forensics examiner roadmap is deliberate. Digital forensics examiners frequently receive cases that were first flagged by a SOC team. Understanding both sides of that handoff — how analysts detect, triage, and escalate — makes you a significantly stronger examiner.
+This phase develops the core technical skills of a working digital forensics examiner. Every room maps directly to a tool category used professionally. The goal is to move beyond tool usage and into forensic methodology — understanding not just *how* to use Volatility, but *what* each plugin reveals, *when* you would use it, and *how* you document the findings in a legally defensible report.
 
-The two skills that transfer most directly from SOC work to forensics: log analysis and MITRE ATT&CK mapping. Every case you examine will involve parsing logs and mapping behavior to techniques. Build those habits here.
+By the end of this phase, you should be able to: conduct a disk forensic examination in Autopsy, perform memory analysis with Volatility 3, triage a system with KAPE, parse Windows artifacts with the Eric Zimmerman tool suite, and produce a professional forensic report from scratch.
 
 ---
 
@@ -15,135 +15,133 @@ The two skills that transfer most directly from SOC work to forensics: log analy
 
 > **Pace guide:** ⭐ = go slow, take full notes | ➡️ = normal pace | ⚡ = complete it, move on
 
-### Section 1: Blue Team Introduction
-- [ ] ➡️ Junior Security Analyst Intro
-- [ ] ➡️ SOC Role in Blue Team
-- [ ] ⭐ Humans as Attack Vectors — *social engineering is the initial access vector in a large percentage of cases you will examine*
-- [ ] ➡️ Systems as Attack Vectors
+### Forensic Foundations & Windows Artifacts
+- [ ] ⭐ DFIR: An Introduction — *the six-phase methodology is the framework for every examination you will ever conduct; know it without thinking*
+- [ ] ⭐ Windows Forensics 1 — *registry hive locations, UserAssist, ShimCache, AmCache, MUICache; take meticulous notes including exact registry key paths*
+- [ ] ⭐ Windows Forensics 2 — *Prefetch, LNK files, Jump Lists, Shellbags, browser artifacts, Recycle Bin; same level of note-taking*
 
-### Section 2: SOC Team Internals
-- [ ] ⭐ SOC L1 Alert Triage — *understand how a case gets handed to an examiner; this is the workflow upstream of your job*
-- [ ] ⭐ SOC L1 Alert Reporting — *report writing discipline starts here; the habits are the same ones you need for forensic reports*
-- [ ] ➡️ SOC Workbooks and Lookups
-- [ ] ⚡ SOC Metrics and Objectives
-- [ ] ⭐ Introduction to Phishing — *phishing is the initial access vector you will most commonly reconstruct as an examiner*
+### Linux Forensics
+- [ ] ⭐ Linux Forensics — *log locations, bash history, cron jobs, passwd and shadow files, file system timestamps*
 
-### Section 3: Core SOC Solutions
-- [ ] ➡️ Introduction to EDR
-- [ ] ➡️ Introduction to SIEM
-- [ ] ⭐ Splunk: The Basics — *SPL query fluency is a real examiner skill in enterprise environments*
-- [ ] ⭐ Elastic Stack: The Basics — *same as Splunk; both platforms appear in enterprise forensic environments*
-- [ ] ⚡ Introduction to SOAR
+### Disk Forensics
+- [ ] ⭐ Autopsy — *your primary free examination platform; get genuinely comfortable with the interface, not just familiar with it*
 
-### Section 4: Cyber Defence Frameworks
-- [ ] ⭐ Pyramid Of Pain — *memorize this; it frames how you prioritize IOCs in any investigation*
-- [ ] ⭐ Cyber Kill Chain — *this is the attacker timeline you will reconstruct from artifacts; know every stage*
-- [ ] ➡️ Unified Kill Chain
-- [ ] ⭐ MITRE — *the most important framework in defensive security; map every technique you encounter to ATT&CK from this point forward*
-- [ ] ➡️ Summit
-- [ ] ⚡ Eviction
+### Endpoint & Memory Triage
+- [ ] ➡️ Redline — *useful tool; Volatility is where you will spend more time in real casework*
+- [ ] ⭐ KAPE — *rapid artifact collection without full imaging; know the difference between Targets and Modules and why it matters in time-sensitive response*
+- [ ] ⭐ Volatility — *the hardest and most differentiating skill in this roadmap; go slower here than anywhere else*
+- [ ] ➡️ Velociraptor — *enterprise-scale tool worth understanding conceptually*
 
-### Section 5: Phishing Analysis
-- [ ] ⭐ Phishing Analysis Fundamentals — *email header analysis is a direct examiner skill*
-- [ ] ⭐ Phishing Emails in Action
-- [ ] ⭐ Phishing Analysis Tools
-- [ ] ➡️ Phishing Prevention
-- [ ] ⭐ The Greenholt Phish — *treat this like a real case; document findings as if writing a report*
-- [ ] ⭐ Snapped Phish-ing Line — *same*
-- [ ] ⭐ Phishing Unfolding — *same*
+### Case Management
+- [ ] ➡️ TheHive Project — *understand the workflow; documentation habits matter more than the specific tool*
 
-### Section 6: Network Traffic Analysis
-- [ ] ➡️ Network Traffic Basics
-- [ ] ⚡ Wireshark: The Basics *(covered in Phase 2)*
-- [ ] ⭐ Wireshark: Packet Operations — *filtering, following streams, extracting files from PCAP*
-- [ ] ⭐ Wireshark: Traffic Analysis — *identifying C2 traffic, exfiltration patterns, anomalies*
-- [ ] ⭐ NetworkMiner — *extracts files, credentials, and host artifacts directly from PCAP; this is a forensic tool, not just a monitoring tool*
+### Malware Analysis
+- [ ] ⭐ Intro to Malware Analysis — *safe triage workflow for suspected malware; understand the static and dynamic analysis distinction*
 
-### Section 7: Network Security Monitoring
-- [ ] ➡️ Network Security Essentials
-- [ ] ➡️ Network Discovery Detection
-- [ ] ⭐ Data Exfiltration Detection — *exfiltration cases are one of the most common examiner scenarios; study the detection patterns, then ask: what artifacts prove this happened?*
-- [ ] ➡️ Man-in-the-Middle Detection
-- [ ] ⚡ IDS Fundamentals *(covered in Phase 2)*
-- [ ] ➡️ Snort
-
-### Section 8: Web Security Monitoring
-- [ ] ➡️ Web Security Essentials
-- [ ] ➡️ Detecting Web Attacks — *web server logs are a forensic artifact*
-- [ ] ➡️ Detecting Web Shells
-- [ ] ⚡ Detecting Web DDoS
-
-### Section 9: Windows Security Monitoring
-- [ ] ⭐ Windows Logging for SOC — *Windows artifact knowledge in disguise; every log source covered here is something you will parse as an examiner*
-- [ ] ⭐ Windows Threat Detection 1 — *Windows Event IDs and Sysmon logs are core forensic evidence*
-- [ ] ⭐ Windows Threat Detection 2 — *take notes on every Event ID covered*
-- [ ] ⭐ Windows Threat Detection 3 — *by the end of this section you should know the key Event IDs cold*
-
-### Section 10: Linux Security Monitoring
-- [ ] ⭐ Linux Logging for SOC — *Linux log locations and formats are directly relevant to Linux forensics in Phase 4*
-- [ ] ➡️ Linux Threat Detection 1
-- [ ] ➡️ Linux Threat Detection 2
-- [ ] ➡️ Linux Threat Detection 3
-
-### Section 11: Malware Concepts for SOC
-- [ ] ⭐ Malware Classification — *know the taxonomy: ransomware, RAT, rootkit, wiper, infostealer; you will classify malware in reports*
-- [ ] ⭐ Intro to Malware Analysis — *safe triage workflow; feeds directly into Phase 4 and projects*
-- [ ] ⭐ Living Off the Land Attacks — *LOLBins appear in almost every modern incident; know certutil, mshta, regsvr32, wmic, and PowerShell abuse patterns cold*
-- [ ] ➡️ Shadow Trace
-
-### Section 12: Threat Analysis Tools
-- [ ] ➡️ Intro to Cyber Threat Intel
-- [ ] ⭐ File and Hash Threat Intel — *VirusTotal and hash-based IOC lookups are part of every forensic report*
-- [ ] ➡️ IP and Domain Threat Intel
-- [ ] ➡️ Invite Only
-
-### Section 13: SIEM Triage for SOC
-- [ ] ⭐ Log Analysis with SIEM
-- [ ] ⭐ Alert Triage With Splunk — *hands-on SPL*
-- [ ] ⭐ Alert Triage With Elastic — *hands-on KQL*
-- [ ] ➡️ ItsyBitsy
-- [ ] ➡️ Benign
-
-### Section 14: SOC Level 1 Capstone Challenges
-- [ ] ➡️ Tempest
-- [ ] ⭐ Boogeyman 1 — *treat this as a real investigation; write a full report for at least one of the three*
-- [ ] ⭐ Boogeyman 2
-- [ ] ⭐ Boogeyman 3 — *by the time you finish these your Phase 5 report writing will be dramatically cleaner*
+### Capstone Investigations
+- [ ] ⭐ Unattended — *treat this as a real case, not a CTF; write a full forensic report using the Phase 5 schema*
+- [ ] ⭐ Disgruntled — *same standard; Linux forensics applied to a real scenario*
+- [ ] ➡️ Critical — *solid memory forensics practice; apply Volatility skills*
+- [ ] ⭐ Secret Recipe — *registry forensics case; the artifact hunting directly mirrors project work*
 
 ---
 
 ## Week-by-Week Schedule
 
-**Week 7 (July 11–17):** Sections 1–2 (SOC Fundamentals, Team Internals) → Section 3 (Splunk, Elastic, EDR) → Section 4 (Pyramid of Pain, Kill Chain, MITRE) → Section 5 (all Phishing rooms)
+**Week 10 (July 30 – August 5):** DFIR Introduction → Windows Forensics 1 → Windows Forensics 2 → Linux Forensics → Autopsy. Take detailed notes on every artifact location: registry hive paths, file system structures, log file locations, browser artifact paths. Begin setting up your local forensics VM.
 
-**Week 8 (July 18–24):** Section 6 (Wireshark deep pass, NetworkMiner) → Section 7 (Network Monitoring, Exfiltration Detection) → Sections 8–10 (Web, Windows, Linux Monitoring) → Section 11 (Malware — classification, LOLBins)
-
-**Week 9 partial (July 25–29):** Section 12 (Threat Intel) → Section 13 (SIEM triage with Splunk and Elastic) → Section 14 (Capstones — Tempest, Boogeyman 1–3)
+**Week 11 (August 6–12):** Redline → KAPE → Volatility → Velociraptor → TheHive → Intro to Malware Analysis → Capstones (Unattended, Disgruntled, Critical, Secret Recipe). Document methodology, tools, and findings for every capstone. These become your Phase 5 report templates.
 
 ---
 
 ## Priority Rooms for a Forensic Examiner
 
-**Windows Threat Detection 1–3** — Windows Event IDs and Sysmon logs are some of the most valuable artifacts in forensic investigation. Know these cold: 4624 (logon), 4625 (failed logon), 4648 (explicit credential logon), 4688 (process creation), 4697 (new service), 4720 (new user account), 7045 (new service installed).
+**DFIR: An Introduction** — The six-phase methodology is not optional: Identification → Preservation → Collection → Examination → Analysis → Reporting. Every professional examination follows this sequence. It is the first thing you say in an interview when asked to walk through an investigation.
 
-**NetworkMiner** — Where Wireshark shows you packets, NetworkMiner extracts artifacts: files transferred, credentials transmitted, host details. This is the network forensics workflow.
+**Windows Forensics 1 and 2** — The artifact categories covered here are the foundation of most corporate forensic cases. Take meticulous notes on exact registry key paths and file system locations. These do not change and you will reference them constantly.
 
-**Data Exfiltration Detection** — Study the detection patterns from the SOC side, then flip the question: if you were the examiner, what artifacts would prove this happened? What registry keys, what event logs, what PCAP evidence?
+**Volatility** — Memory forensics is what differentiates candidates. Know these plugins cold:
+- `windows.pslist` / `windows.pstree` — running processes and parent-child relationships
+- `windows.cmdline` — command-line arguments passed to each process
+- `windows.netscan` — active and recently closed network connections
+- `windows.malfind` — memory regions with suspicious characteristics (injected code)
+- `windows.dlllist` — loaded DLLs per process (spot hijacked or injected DLLs)
+- `windows.handles` — open handles to files, registry keys, and mutexes
 
-**Boogeyman 1–3** — Treat these as forensic investigations. Write a full report for at least one of them using the schema from Phase 5. The report writing practice here directly reduces the learning curve on your portfolio projects.
+**KAPE** — Rapid triage tool used in real enterprise IR. Understanding KAPE Targets and Modules directly maps to how you scope artifact collection in a real case. Collecting the right artifacts quickly without full imaging is a genuinely valuable skill in time-sensitive response.
 
-**MITRE ATT&CK** — Map every technique you encounter throughout this phase to a tactic and technique at attack.mitre.org. Do this consistently from here forward. It will be the first thing interviewers ask you to demonstrate.
+**Unattended and Disgruntled** — The closest rooms in the entire module to real casework. Write a full forensic report for both using the Phase 5 report schema. Do not treat them as CTF boxes.
+
+---
+
+## Local Forensics Environment Setup
+
+Build this before Phase 5 begins. TryHackMe's AttackBox handles in-browser labs, but you need a local environment for portfolio projects.
+
+```bash
+# On Kali Linux
+sudo apt update && sudo apt install -y autopsy sleuthkit foremost tshark wireshark
+
+# Volatility 3
+pip3 install volatility3
+
+# Eric Zimmerman Tools (Windows) — mandatory for Windows artifact analysis
+# Full suite: https://ericzimmerman.github.io/
+# Priority: MFTECmd, PECmd, LECmd, JLECmd, ShellBags Explorer, Registry Explorer, RECmd, Timeline Explorer
+
+# FTK Imager (free, Windows)
+# https://www.exterro.com/ftk-imager
+
+# KAPE (Windows)
+# https://www.kroll.com/en/services/cyber-risk/incident-response-litigation-support/kroll-artifact-parser-extractor-kape
+
+# Magnet AXIOM — request 30-day trial
+# https://www.magnetforensics.com/products/magnet-axiom/
+
+# REMnux — Linux malware analysis VM
+# https://remnux.org/
+```
+
+---
+
+## Forensic Examination Methodology
+
+Every examination follows this sequence without exception.
+
+```
+1. IDENTIFICATION   → What incident occurred? What systems are potentially involved?
+2. PRESERVATION     → Image the disk and memory before any other action.
+                      Calculate and record MD5 + SHA-256 hashes of all evidence.
+                      Never work on original evidence.
+3. COLLECTION       → Gather artifacts: registry hives, event logs, prefetch, browser
+                      history, LNK files, shellbags, USB artifacts, MFT, SRUM database.
+4. EXAMINATION      → Parse artifacts: Autopsy, Volatility, KAPE, EZ Tools, Regripper.
+5. ANALYSIS         → Build the timeline. Map behaviors to MITRE ATT&CK. Answer:
+                      who, what, when, where, and how.
+6. REPORTING        → Document all findings with artifact paths, hashes, screenshots,
+                      and timestamps. Every claim must be supported by documented
+                      evidence. Write for an audience that may include a judge or jury.
+```
+
+## Evidence Integrity — Non-Negotiables
+
+- **Never examine original evidence.** Always work on a verified forensic copy.
+- **Hash everything, every time.** MD5 and SHA-256 at acquisition and again before examination.
+- **Document every action.** Tool name, version, command used, date, time, output produced.
+- **Maintain chain of custody.** Record who has had access to the evidence and when.
+- **Write for a non-technical reader.** Reports will be read by attorneys, HR, or judges. Define every technical term.
 
 ---
 
 ## References
 
-- [MITRE ATT&CK Navigator](https://mitre-attack.github.io/attack-navigator/) — interactive heatmap; track every technique you encounter
-- [Boss of the SOC (BOTS) Datasets](https://github.com/splunk/botsdatasets) — Splunk CTF dataset; practice SPL at enterprise scale
-- [Any.run Interactive Sandbox](https://app.any.run/) — watch malware execute live and capture process and network artifacts
-- [Wireshark Sample Captures](https://wiki.wireshark.org/SampleCaptures) — real PCAP files from infections, scans, and protocols
-- [Windows Event Log Encyclopedia](https://www.ultimatewindowssecurity.com/securitylog/encyclopedia/) — definitive reference for every Windows Event ID
+- [13Cubed YouTube Channel](https://www.youtube.com/@13Cubed) — best free DFIR video content available; watch alongside every Windows forensics and Volatility room
+- [Volatility 3 Plugin Reference](https://github.com/volatilityfoundation/volatility3)
+- [SANS Windows Forensic Analysis Poster](https://www.sans.org/posters/windows-forensic-analysis/) — visual map of every registry key, prefetch file, and event log that records user activity
+- [Digital Corpora](https://digitalcorpora.org/) — free realistic disk images and memory dumps
+- [Magnet Forensics CTF Archives](https://www.magnetforensics.com/blog/) — annual forensic CTF images with writeups
+- [SWGDE Documents](https://www.swgde.org/documents/published)
 
 ---
 
-*[← Phase 2](./02-cyber-security-101.md) | [Back to Roadmap](../README.md) | [Phase 4 →](./04-dfir-deep-dive.md)*
+*[← Phase 3](./03-soc-level-1.md) | [Back to Roadmap](../README.md) | [Phase 5 →](./05-projects.md)*
