@@ -1,4 +1,4 @@
-Cybersecurity Fundamentals Through a DFIR Lens
+# Cybersecurity Fundamentals Through a DFIR Lens
 
 **Timeline: June 16 – July 10 | ~55 hours | ~17 hrs/week**
 ---
