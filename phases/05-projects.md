@@ -1,5 +1,5 @@
 # Phase 5 — Forensic Examiner Portfolio
-**August 2026 – April 2027 | 6 Projects | Public Documentation**
+**August 2026 – April 2027 | 5 Projects | Public Documentation**
 
 ---
 
