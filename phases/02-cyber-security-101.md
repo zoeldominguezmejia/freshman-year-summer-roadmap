@@ -40,10 +40,10 @@ Instead, the objective is to understand:
 - [x] ⭐ Windows Fundamentals 1 *(registry, file system, user accounts — all artifact sources)*
 - [x] ⭐ Windows Fundamentals 2 *(system tools and configuration — understand what each one logs)*
 - [x] ⭐ Windows Fundamentals 3 *(security features — understand what generates what evidence)*
-- [ ] ⭐ Active Directory Basics *(enterprise cases almost always involve AD — take notes on users, groups, GPO, domain controllers)*
+- [x] ⭐ Active Directory Basics *(enterprise cases almost always involve AD — take notes on users, groups, GPO, domain controllers)*
 
 ### Section 4: Command Line
-- [ ] ⭐ Windows Command Line *(you will run these commands during triage and examination)*
+- [x] ⭐ Windows Command Line *(you will run these commands during triage and examination)*
 - [ ] ⭐ Windows PowerShell *(PowerShell is both an attacker tool and an artifact source — know both sides)*
 - [ ] ➡️ Linux Shells
 
