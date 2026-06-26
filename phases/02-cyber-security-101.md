@@ -33,8 +33,8 @@ The goal is not to become an offensive security specialist. The goal is to under
 
 ### Section 4: Command Line
 - [x] ⭐ Windows Command Line — *you will run these commands during triage and examination*
-- [ ] ⭐ Windows PowerShell — *PowerShell is both an attacker tool and an artifact source; know both sides*
-- [ ] ➡️ Linux Shells
+- [x] ⭐ Windows PowerShell — *PowerShell is both an attacker tool and an artifact source; know both sides*
+- [x] ➡️ Linux Shells
 
 ### Section 5: Networking
 - [ ] ➡️ Networking Concepts
