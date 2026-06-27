@@ -37,9 +37,9 @@ The goal is not to become an offensive security specialist. The goal is to under
 - [x] ➡️ Linux Shells
 
 ### Section 5: Networking
-- [ ] ➡️ Networking Concepts
-- [ ] ➡️ Networking Essentials
-- [ ] ➡️ Networking Core Protocols
+- [x] ➡️ Networking Concepts
+- [x] ➡️ Networking Essentials
+- [] ➡️ Networking Core Protocols
 - [ ] ➡️ Networking Secure Protocols
 - [ ] ⭐ Wireshark: The Basics — *PCAP analysis is a core examiner skill*
 - [ ] ➡️ Tcpdump: The Basics
