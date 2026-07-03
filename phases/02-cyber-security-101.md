@@ -48,8 +48,8 @@ The goal is not to become an offensive security specialist. The goal is to under
 ### Section 6: Cryptography
 - [x] ➡️ Cryptography Basics
 - [x] ➡️ Public Key Cryptography Basics
-- [ ] ⭐ Hashing Basics — *MD5 and SHA-256 are how you prove evidence integrity in court*
-- [ ] ⚡ John the Ripper: The Basics
+- [x] ⭐ Hashing Basics — *MD5 and SHA-256 are how you prove evidence integrity in court*
+- [x] ⚡ John the Ripper: The Basics
 
 ### Section 7: Exploitation Basics
 - [ ] ⚡ Moniker Link (CVE-2024-21413)
