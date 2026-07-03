@@ -46,8 +46,8 @@ The goal is not to become an offensive security specialist. The goal is to under
 - [x] ⚡ Nmap: The Basics — *attacker tool; understand what it does and what logs it generates*
 
 ### Section 6: Cryptography
-- [ ] ➡️ Cryptography Basics
-- [ ] ➡️ Public Key Cryptography Basics
+- [x] ➡️ Cryptography Basics
+- [x] ➡️ Public Key Cryptography Basics
 - [ ] ⭐ Hashing Basics — *MD5 and SHA-256 are how you prove evidence integrity in court*
 - [ ] ⚡ John the Ripper: The Basics
 
