@@ -52,7 +52,7 @@ The goal is not to become an offensive security specialist. The goal is to under
 - [x] ⚡ John the Ripper: The Basics
 
 ### Section 7: Exploitation Basics
-- [ ] ⚡ Moniker Link (CVE-2024-21413)
+- [x] ⚡ Moniker Link (CVE-2024-21413)
 - [ ] ⚡ Metasploit: Introduction
 - [ ] ⚡ Metasploit: Exploitation
 - [ ] ⚡ Metasploit: Meterpreter
