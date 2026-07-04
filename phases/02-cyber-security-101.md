@@ -53,7 +53,7 @@ The goal is not to become an offensive security specialist. The goal is to under
 
 ### Section 7: Exploitation Basics
 - [x] ⚡ Moniker Link (CVE-2024-21413)
-- [ ] ⚡ Metasploit: Introduction
+- [x] ⚡ Metasploit: Introduction
 - [ ] ⚡ Metasploit: Exploitation
 - [ ] ⚡ Metasploit: Meterpreter
 - [ ] ➡️ Blue — *Windows exploitation room; the artifacts it generates are things you will later hunt as an examiner*
