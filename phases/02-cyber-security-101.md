@@ -59,16 +59,16 @@ The goal is not to become an offensive security specialist. The goal is to under
 - [x] ➡️ Blue — *Windows exploitation room; the artifacts it generates are things you will later hunt as an examiner*
 
 ### Section 8: Web Hacking
-- [ ] ➡️ Web Application Basics
-- [ ] ⚡ JavaScript Essentials
-- [ ] ➡️ SQL Fundamentals — *browser history, communication apps, and many applications store data in SQLite*
-- [ ] ⚡ Burp Suite: The Basics
+- [x] ➡️ Web Application Basics
+- [x] ⚡ JavaScript Essentials
+- [x] ➡️ SQL Fundamentals — *browser history, communication apps, and many applications store data in SQLite*
+- [x] ⚡ Burp Suite: The Basics
 
 ### Section 9: Offensive Security Tooling
-- [ ] ⚡ Hydra
-- [ ] ⚡ Gobuster: The Basics
-- [ ] ⚡ Shells Overview — *understanding shell types helps recognize execution artifacts*
-- [ ] ⚡ SQLMap: The Basics
+- [x] ⚡ Hydra
+- [x] ⚡ Gobuster: The Basics
+- [x] ⚡ Shells Overview — *understanding shell types helps recognize execution artifacts*
+- [x] ⚡ SQLMap: The Basics
 
 ### Section 10: Defensive Security
 - [ ] ⚡ Defensive Security Intro
