@@ -71,11 +71,11 @@ The goal is not to become an offensive security specialist. The goal is to under
 - [x] ⚡ SQLMap: The Basics
 
 ### Section 10: Defensive Security
-- [ ] ⚡ Defensive Security Intro
-- [ ] ➡️ SOC Fundamentals
-- [ ] ⭐ Digital Forensics Fundamentals — *your specialty; go slow, take full notes on every artifact type introduced*
-- [ ] ⭐ Incident Response Fundamentals — *learn the IR lifecycle; examiners operate inside this framework*
-- [ ] ⭐ Logs Fundamentals — *logs are evidence; know what each log type records, where it lives, and how long it persists*
+- [x] ⚡ Defensive Security Intro
+- [x] ➡️ SOC Fundamentals
+- [x] ⭐ Digital Forensics Fundamentals — *your specialty; go slow, take full notes on every artifact type introduced*
+- [x] ⭐ Incident Response Fundamentals — *learn the IR lifecycle; examiners operate inside this framework*
+- [x] ⭐ Logs Fundamentals — *logs are evidence; know what each log type records, where it lives, and how long it persists*
 
 ### Section 11: Security Solutions
 - [ ] ➡️ Introduction to SIEM
