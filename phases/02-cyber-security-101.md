@@ -78,16 +78,16 @@ The goal is not to become an offensive security specialist. The goal is to under
 - [x] ⭐ Logs Fundamentals — *logs are evidence; know what each log type records, where it lives, and how long it persists*
 
 ### Section 11: Security Solutions
-- [ ] ➡️ Introduction to SIEM
-- [ ] ➡️ Firewall Fundamentals
-- [ ] ➡️ IDS Fundamentals
-- [ ] ⚡ Vulnerability Scanner Overview
+- [x] ➡️ Introduction to SIEM
+- [x] ➡️ Firewall Fundamentals
+- [x] ➡️ IDS Fundamentals
+- [x] ⚡ Vulnerability Scanner Overview
 
 ### Section 12: Defensive Security Tooling
-- [ ] ⭐ CyberChef: The Basics — *you will use CyberChef constantly: decoding strings, extracting IOCs, identifying file magic bytes*
-- [ ] ⭐ CAPA: The Basics — *identifies malware capabilities from binaries without executing them; directly relevant to safe malware triage*
-- [ ] ⭐ REMnux: Getting Started — *set this VM up properly; you will use it in projects*
-- [ ] ➡️ FlareVM: Arsenal of Tools
+- [x] ⭐ CyberChef: The Basics — *you will use CyberChef constantly: decoding strings, extracting IOCs, identifying file magic bytes*
+- [x] ⭐ CAPA: The Basics — *identifies malware capabilities from binaries without executing them; directly relevant to safe malware triage*
+- [x] ⭐ REMnux: Getting Started — *set this VM up properly; you will use it in projects*
+- [x] ➡️ FlareVM: Arsenal of Tools
 
 ### Section 13: Build Your Cyber Security Career
 - [ ] ➡️ Security Principles
