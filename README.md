@@ -41,8 +41,8 @@ Target career path: digital forensics examiner in corporate litigation support, 
 
 | Phase | Status |
 |-------|--------|
-| Phase 1 — Technical Foundations | ✅ Complete |
-| Phase 2 — Cybersecurity Through a DFIR Lens | 🔄 In Progress (41%) |
+| Phase 1 — Technical Foundations | Complete |
+| Phase 2 — Cybersecurity Through a DFIR Lens | Complete |
 | Phase 3 — SOC Level 1 | ⬜ Not Started |
 | Phase 4 — Digital Forensics Foundations | ⬜ Not Started |
 | Phase 5 — Portfolio Projects | ⬜ Not Started |
