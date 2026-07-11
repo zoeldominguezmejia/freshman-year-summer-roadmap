@@ -92,12 +92,12 @@ The goal is not to become an offensive security specialist. The goal is to under
 ### Section 13: Build Your Cyber Security Career
 - [x] ➡️ Security Principles
 - [x] ➡️ Careers in Cyber
-- [ ] ⚡ Training Impact on Teams
+- [x] ⚡ Training Impact on Teams
 
 ### Section 14: OWASP Top 10 (2025)
-- [ ] ⚡ OWASP Top 10 2025: IAAA Failures
-- [ ] ⚡ OWASP Top 10 2025: Application Design Flaws
-- [ ] ⚡ OWASP Top 10 2025: Insecure Data Handling
+- [x] ⚡ OWASP Top 10 2025: IAAA Failures
+- [x] ⚡ OWASP Top 10 2025: Application Design Flaws
+- [x] ⚡ OWASP Top 10 2025: Insecure Data Handling
 
 ---
 
