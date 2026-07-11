@@ -90,8 +90,8 @@ The goal is not to become an offensive security specialist. The goal is to under
 - [x] ➡️ FlareVM: Arsenal of Tools
 
 ### Section 13: Build Your Cyber Security Career
-- [ ] ➡️ Security Principles
-- [ ] ➡️ Careers in Cyber
+- [x] ➡️ Security Principles
+- [x] ➡️ Careers in Cyber
 - [ ] ⚡ Training Impact on Teams
 
 ### Section 14: OWASP Top 10 (2025)
