@@ -16,16 +16,16 @@ The two skills that transfer most directly from SOC work to forensics: log analy
 > **Pace guide:** ⭐ = go slow, take full notes | ➡️ = normal pace | ⚡ = complete it, move on
 
 ### Section 1: Blue Team Introduction
-- [ ] ➡️ Junior Security Analyst Intro
-- [ ] ➡️ SOC Role in Blue Team
-- [ ] ⭐ Humans as Attack Vectors — *social engineering is the initial access vector in a large percentage of cases you will examine*
-- [ ] ➡️ Systems as Attack Vectors
+- [x] ➡️ Junior Security Analyst Intro
+- [x] ➡️ SOC Role in Blue Team
+- [x] ⭐ Humans as Attack Vectors — *social engineering is the initial access vector in a large percentage of cases you will examine*
+- [x] ➡️ Systems as Attack Vectors
 
 ### Section 2: SOC Team Internals
-- [ ] ⭐ SOC L1 Alert Triage — *understand how a case gets handed to an examiner; this is the workflow upstream of your job*
-- [ ] ⭐ SOC L1 Alert Reporting — *report writing discipline starts here; the habits are the same ones you need for forensic reports*
-- [ ] ➡️ SOC Workbooks and Lookups
-- [ ] ⚡ SOC Metrics and Objectives
+- [x] ⭐ SOC L1 Alert Triage — *understand how a case gets handed to an examiner; this is the workflow upstream of your job*
+- [x] ⭐ SOC L1 Alert Reporting — *report writing discipline starts here; the habits are the same ones you need for forensic reports*
+- [x] ➡️ SOC Workbooks and Lookups
+- [x] ⚡ SOC Metrics and Objectives
 - [ ] ⭐ Introduction to Phishing — *phishing is the initial access vector you will most commonly reconstruct as an examiner*
 
 ### Section 3: Core SOC Solutions
