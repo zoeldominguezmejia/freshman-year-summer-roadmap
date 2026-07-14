@@ -26,7 +26,7 @@ The two skills that transfer most directly from SOC work to forensics: log analy
 - [x] ⭐ SOC L1 Alert Reporting — *report writing discipline starts here; the habits are the same ones you need for forensic reports*
 - [x] ➡️ SOC Workbooks and Lookups
 - [x] ⚡ SOC Metrics and Objectives
-- [ ] ⭐ Introduction to Phishing — *phishing is the initial access vector you will most commonly reconstruct as an examiner*
+- [x] ⭐ Introduction to Phishing — *phishing is the initial access vector you will most commonly reconstruct as an examiner*
 
 ### Section 3: Core SOC Solutions
 - [ ] ➡️ Introduction to EDR
