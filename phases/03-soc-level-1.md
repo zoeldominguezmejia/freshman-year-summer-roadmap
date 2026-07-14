@@ -30,7 +30,7 @@ The two skills that transfer most directly from SOC work to forensics: log analy
 
 ### Section 3: Core SOC Solutions
 - [ ] ➡️ Introduction to EDR
-- [ ] ➡️ Introduction to SIEM
+- [x] ➡️ Introduction to SIEM
 - [ ] ⭐ Splunk: The Basics — *SPL query fluency is a real examiner skill in enterprise environments*
 - [ ] ⭐ Elastic Stack: The Basics — *same as Splunk; both platforms appear in enterprise forensic environments*
 - [ ] ⚡ Introduction to SOAR
